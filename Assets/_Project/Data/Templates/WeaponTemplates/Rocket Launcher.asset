@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2192a895ec85a9944a2de689612813dc, type: 3}
+  m_Name: Rocket Launcher
+  m_EditorClassIdentifier: 
+  templateName: 
+  id: 0
+  fireMode: 0
+  weaponType: 1
+  reloadMethod: 0
+  ejectionMethod: 0
+  shotCount: 1
+  shotSpread: 0
+  pieceringFactor: 0
+  sounds:
+    fire: {fileID: 11400000, guid: 2850d872f56c71e4ab349ba2e8316949, type: 2}
+    empty: {fileID: 11400000, guid: e01c4b9009f8ba24687023ccbfe30980, type: 2}
+    reloadStart: {fileID: 0}
+    reloadMid: {fileID: 0}
+    reloadEnd: {fileID: 0}
+  attackEmitters:
+  - {x: 1.7323269, y: -0.010668214, z: 0}
+  fireEffects: []
+  ejectionEffects: []
+  tracerEffects: []
+  projectiles:
+  - scale: 1
+    prefab: {fileID: 100000, guid: d8a7b3e2215b2314590d1f42d5876cb2, type: 2}
+    offset: {x: 1.7323269, y: -0.010668214, z: 0}

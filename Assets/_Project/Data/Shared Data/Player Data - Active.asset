@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0841fcd3e8dfe854b8511a9451af4164, type: 3}
+  m_Name: Player Data - Active
+  m_EditorClassIdentifier: 
+  characterSheet: {fileID: 11400000, guid: 228c27274d079684fa96a090465ea3b4, type: 2}
+  inventory: {fileID: 11400000, guid: 0d2104d7281a6f74b9623e1e43a057db, type: 2}
+  IREManager: {fileID: 11400000, guid: 42a40aa3ea12a5341bfbb36fc2d04d1f, type: 2}
+  worldPosition: {x: 0, y: 0, z: 0}

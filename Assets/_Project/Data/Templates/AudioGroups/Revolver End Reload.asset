@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Revolver End Reload
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 1b290401777a7154d8bb64dcb3e96fae, type: 3}
+  - {fileID: 8300000, guid: 883bc07933107e042be8b9d0bb47405d, type: 3}
+  - {fileID: 8300000, guid: 52bf1a6f37916f8438031be4d5ae2dfb, type: 3}
+  - {fileID: 8300000, guid: 07d861577e76a9c4ba04e6ecf6f780ec, type: 3}

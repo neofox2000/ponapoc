@@ -1,0 +1,1 @@
+﻿public enum TriggerType { Enter, Exit, Stay }

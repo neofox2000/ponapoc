@@ -1,0 +1,135 @@
+### Left off at ###
+- Items in an inventory need unique identifiers to avoid probably switching between the same weapon model with different ammo in it
+- Add 'Contamination' mechanics
+	* Add blurbs and debuffs at every 20% increment of contimation
+	* Add bad ending when contamination reaches 100%
+- Balance AI weapon damage
+	* Add shields
+	* Add dodging mechnics?
+
+
+### Things to do next ###
+- Add alerts when abilities level up
+- Add character shadows to visually distinguish when an entity leaves the ground (jumping, flight, etc)
+- Increase skill points needed when skill is over 100
+- Fix Launcher weapon types
+- Add grenade tutorial thing to Last Hope gate encounter
+- Make Trash Collector skill affect ammo and sugar drop rates
+- Re-enable world map encounters
+- Add support for different lighting within the same room 
+	(colliders for zones that change lighting when player touches them)
+- Research tweening for lighting transitions
+- Add a way to see the details of the Status Effects that are currently applied to the player
+
+
+### GUI ###
+- Maximum HP/MP/SP shown on character sheet should be more explicitly labeled as such
+- Quick-help bars need better context info updates
+
+
+### Melee Weapon Overhaul ###
+- Apply skill modifiers to AP consumption on melee attacks
+- Add more combos and/or alter animations
+- Make new and existing mix hit different heights, instead of just hitting mid-height always
+
+
+### Controller support ###
+- Add controller buttons for moving more than 1 item at a time on inventory screens
+- Change other stats to be selectables (allows controller to highlight them)
+
+
+### AI Stuff ###
+? Prevent AI from getting stuck while in fear or seek states
+- Allow AI to following targets through doors?
+- Add 2D pathfinding functions in the BaseController class (for both AI and cinemtic purposes)
+- Change AI handling to ActionQueue-based instead of timer-based
+? Add AI toggle for picking up loot (allows player to use items as bait)
+
+
+### Abilities ###
+- Add at least 2 offensive abilities
+- Add abilities feature
+	M Increase ability practice exp/levels as they are used
+	T Add benifits for increase practice/theory levels
+	- Add sound/visual for ability level increases
+	* Add support for item requirement/consumption for abilities
+	^ Modify character creation process to apply starting abilities?
+		** What if the first ability is learned in the turoial section?
+			*** It would need to be added if the tutorial/intro is skipped
+=== OR ===
+- Scrap (active) ability system?
+
+
+### Skills ###
+- Armor skills should reduce carry weight of equipped armor
+- Alchemy skill should reduce relevant items' carry weight
+- Alchemy skill should add chance to find extra relevant item drops
+
+
+### Character Creation ###
+- Add presets
+
+
+### World Map ###
+- Terrain system uses way too much memory, need to swap back to sprite maps
+- Update player marker art
+
+
+### Mission ###
+- NPC trader re-seeding will need to be figured out after trading inventory is made persistant
+- Misclicked consumables are used unintentially; add a 2nd click requirement to actually use them
+- Quest Tracker?
+- Barter screen hides Trader's haggle responses
+- Transitioning from sneak to normal shooting an automatic weapon puts muzzle in the air
+- During conversations, if the speaker is too close to the edge of the stage, it is possible (briefly) see outside of the play area
+
+
+### Balancing ###
+- Set better loot tables for mobs (rely less on mob loot)
+- Add more designed loot to Maresville (new gun in secret place, ammo caches, etc)
+- Find a way to make scavenging skill work with new loot table systems
+
+
+### Notes ###
+- Potential persistent mission data to save:
+	= Storage Containers
+		* State (normal, smashed, hidden, etc)
+
+	= Player
+		* Last Mission visited (prevent players from re-entering Last Hope to regen trader items?)
+
+	= NPCs
+		* Present or not (based on quest states)
+
+	= Quest Triggers [this can be calculated on the fly based on quest requirements/conditions]
+		* State (Dormant, Active, Triggered)
+
+	= Missions
+		* Firstrun (yes/no)
+		* Remaining enemy count (only for Returning state on procedurally generated missions)
+		* Boss state data (later when we add bosses) (could also be calculated based on quest conditions?)
+
+	= Generic objects
+		* The state of random things like doorways that could become destroyed or blocked
+		* State of traps designed into the missions
+		* State of traps placed by player?
+
+
+### Feedback / Bugs ###
+- Tutorial mobs need to spawn off-screen to avoid breaking immersion
+- When using a controller, if the mouse is in a position that overlaps dialog options, they will be highlighted and confuse the player
+- Skill list is sorted differently in character creation screen and missions
+- World map controller input could use some additional redundant buttons for travelling
+- World map controller input needs a crosshair to show where you will travel when you hit the button
+- Barter balance still confuses people
+- Setup Dialog to say different lines based on player's Gender
+- Broken Bits needs his own dialog when talking to him in Last Hope
+- Level up event goes unnoticed by many players
+	* Add a list of level-up blurbs that the player could say
+- Need destructible objects (explody barrels?)
+- hard to see what is equipped/selected
+- GUI sounds too loud and clicky
+- GUI buttons don't make sound on mouse click
+- +/- buttons in skills should change skill rapidly when held
+- Can't see the water in the sewers now (add personal lighting?)
+- Weapon muzzle positions are being incorrectly offset by camera zoom distance

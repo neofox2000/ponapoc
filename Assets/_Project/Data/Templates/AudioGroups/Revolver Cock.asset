@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Revolver Cock
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 2045aead934b6d24b98531e92956e211, type: 3}
+  - {fileID: 8300000, guid: 6cc8b7b193ebd74449978162ce50308d, type: 3}
+  - {fileID: 8300000, guid: 1b0714acfd4f5b946bd34c25a507a6c9, type: 3}
+  - {fileID: 8300000, guid: 3e714ddf097962f41a27a4ba8bcee85b, type: 3}
+  - {fileID: 8300000, guid: 602f9f3337efb9742bd9abb7b8b49547, type: 3}

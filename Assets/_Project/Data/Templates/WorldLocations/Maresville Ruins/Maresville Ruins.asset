@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c342169ca63c6b14d8d5cc7933fd1507, type: 3}
+  m_Name: Maresville Ruins
+  m_EditorClassIdentifier: 
+  saveId: 0
+  description: An abandoned and neglected city
+  sceneName: New Maresville
+  entrances_old:
+  - name: Outskirts - West Street
+    portalID: 0
+    newGameVisible: 1
+  - name: Outskirts - West Sewer
+    portalID: 2
+    newGameVisible: 0
+  - name: Outskirts - East Street
+    portalID: 1
+    newGameVisible: 0
+  entrances:
+  - {fileID: 11400000, guid: 680eb3655c88bc84a924ff18ebddfaa8, type: 2}
+  - {fileID: 11400000, guid: 79051a968eda5614682a9c725e9d0136, type: 2}
+  - {fileID: 11400000, guid: 3a6e0a86f7cff7f4281f9de66200df35, type: 2}

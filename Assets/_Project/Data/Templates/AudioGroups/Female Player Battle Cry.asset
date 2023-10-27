@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Female Player Battle Cry
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: e8fda8aee93ebd740b2f68f16fb5d081, type: 3}
+  - {fileID: 8300000, guid: 881fd6eb6593dbf4d8882be5c350b91e, type: 3}
+  - {fileID: 8300000, guid: 78cdf232ac4160d43bf5f7446af8a7c6, type: 3}
+  - {fileID: 8300000, guid: d25b8f84a37efa140bcfd26bbf0a3b3e, type: 3}
+  - {fileID: 8300000, guid: 34fc6344299afe24481f8d8d188d3bf4, type: 3}
+  - {fileID: 8300000, guid: a27b0b78cf6a9c9448c4d51023a1b60a, type: 3}
+  - {fileID: 8300000, guid: 39a437cd37d7f7e448f0343ff97221e2, type: 3}
+  - {fileID: 8300000, guid: f5199791984a4054e8e7c6d77b6475e6, type: 3}
+  - {fileID: 8300000, guid: 3de1e6e8c248794419408c592f616770, type: 3}
+  - {fileID: 8300000, guid: 15682487289d3744783a3425dc5848c9, type: 3}
+  - {fileID: 8300000, guid: ffd2841cd570a0f428baeae22641bf8e, type: 3}
+  - {fileID: 8300000, guid: d2ee449b98a2d3241ad3df8c6027d497, type: 3}

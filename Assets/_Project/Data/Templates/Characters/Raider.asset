@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5798969151c8eb148be08325dbd404c7, type: 3}
+  m_Name: Raider
+  m_EditorClassIdentifier: 
+  saveID: 0
+  playable: 0
+  race: {fileID: 11400000, guid: c8a16c0408d0859428a7e2e450f57552, type: 2}
+  animationProfile: {fileID: 11400000, guid: 72720a9eec5c40741b6a91f176b72577, type: 2}
+  soundsTemplate: {fileID: 11400000, guid: 7c0fb254d53e7754495667f937d809eb, type: 2}
+  weaponAnimationProfile: {fileID: 11400000, guid: af02a3b8be0e9c64b864b936defced77,
+    type: 2}
+  modelPrefab: {fileID: 156456, guid: 7b53fb9daf5e12648af2f42abd01c682, type: 2}
+  modelSkin: 1
+  conversationPrefab: {fileID: 0}
+  hitEffect: {fileID: 100004, guid: 1c641d32b99b2ce4a9fd95cbbb8364dc, type: 2}
+  criticalHitEffect: {fileID: 1087227788213114, guid: 1fb197fffdd0e1542b196300f61a5a6f,
+    type: 2}
+  characterSheet: {fileID: 11400000, guid: 228c27274d079684fa96a090465ea3b4, type: 2}

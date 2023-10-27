@@ -1,0 +1,272 @@
+
+Player_Model.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_Lower_1a
+  rotate: true
+  xy: 639, 349
+  size: 46, 134
+  orig: 46, 134
+  offset: 0, 0
+  index: -1
+Arm_Upper_1a
+  rotate: false
+  xy: 836, 385
+  size: 122, 43
+  orig: 122, 43
+  offset: 0, 0
+  index: -1
+Arm_Upper_2a
+  rotate: false
+  xy: 443, 221
+  size: 122, 45
+  orig: 122, 45
+  offset: 0, 0
+  index: -1
+Cheek_Normal_1a
+  rotate: false
+  xy: 441, 86
+  size: 83, 27
+  orig: 83, 27
+  offset: 0, 0
+  index: -1
+Cheek_Smirk_1a
+  rotate: false
+  xy: 355, 58
+  size: 83, 30
+  orig: 83, 30
+  offset: 0, 0
+  index: -1
+Ear_Back_1a
+  rotate: true
+  xy: 836, 430
+  size: 80, 123
+  orig: 80, 123
+  offset: 0, 0
+  index: -1
+Ear_Front_1a
+  rotate: true
+  xy: 462, 268
+  size: 80, 123
+  orig: 80, 123
+  offset: 0, 0
+  index: -1
+Ear_Front_Nibbled_1a
+  rotate: false
+  xy: 273, 80
+  size: 80, 123
+  orig: 80, 123
+  offset: 0, 0
+  index: -1
+Eye_Iris_1a
+  rotate: false
+  xy: 399, 20
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+Eye_Pupil_1a
+  rotate: false
+  xy: 820, 381
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+Eye_Shine_1a
+  rotate: false
+  xy: 432, 50
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Eye_White_1a
+  rotate: true
+  xy: 340, 61
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+Eyebrow_Angry_1a
+  rotate: false
+  xy: 775, 370
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+Eyebrow_Normal_1a
+  rotate: false
+  xy: 182, 6
+  size: 48, 8
+  orig: 48, 8
+  offset: 0, 0
+  index: -1
+Eyelid_1-4_1a
+  rotate: false
+  xy: 440, 48
+  size: 73, 36
+  orig: 73, 36
+  offset: 0, 0
+  index: -1
+Eyelid_2-4_1a
+  rotate: true
+  xy: 540, 146
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
+Eyelid_3-4_1a
+  rotate: false
+  xy: 441, 115
+  size: 77, 49
+  orig: 77, 49
+  offset: 0, 0
+  index: -1
+Eyelid_Closed_1a
+  rotate: false
+  xy: 350, 210
+  size: 91, 59
+  orig: 91, 59
+  offset: 0, 0
+  index: -1
+Eyelid_Open_1a
+  rotate: false
+  xy: 580, 158
+  size: 33, 24
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+Hair_1a_Back
+  rotate: false
+  xy: 638, 250
+  size: 89, 97
+  orig: 89, 97
+  offset: 0, 0
+  index: -1
+Hair_1a_Front
+  rotate: false
+  xy: 961, 457
+  size: 61, 53
+  orig: 61, 53
+  offset: 0, 0
+  index: -1
+Hair_1a_Mid
+  rotate: false
+  xy: 2, 205
+  size: 346, 305
+  orig: 346, 305
+  offset: 0, 0
+  index: -1
+Hand_Left_Closed_1a
+  rotate: true
+  xy: 340, 2
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+Hand_Left_Open_1a
+  rotate: true
+  xy: 2, 2
+  size: 87, 89
+  orig: 87, 89
+  offset: 0, 0
+  index: -1
+Hand_Right_Closed_1a
+  rotate: false
+  xy: 580, 184
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+Hand_Right_Open_1a
+  rotate: false
+  xy: 93, 2
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+Hand_Right_TriggerFinger_1a
+  rotate: false
+  xy: 182, 16
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+Head_Base_1a
+  rotate: false
+  xy: 462, 350
+  size: 175, 160
+  orig: 175, 160
+  offset: 0, 0
+  index: -1
+Horn_1a
+  rotate: true
+  xy: 961, 407
+  size: 48, 61
+  orig: 48, 61
+  offset: 0, 0
+  index: -1
+Leg_Right_Lower_1a
+  rotate: true
+  xy: 639, 397
+  size: 113, 195
+  orig: 113, 195
+  offset: 0, 0
+  index: -1
+Leg_Right_Upper_1a
+  rotate: false
+  xy: 355, 90
+  size: 84, 118
+  orig: 84, 118
+  offset: 0, 0
+  index: -1
+Muzzle_Frown_1a
+  rotate: true
+  xy: 729, 252
+  size: 95, 53
+  orig: 95, 53
+  offset: 0, 0
+  index: -1
+Muzzle_Grin_1a
+  rotate: true
+  xy: 587, 249
+  size: 99, 49
+  orig: 99, 49
+  offset: 0, 0
+  index: -1
+Muzzle_Smile_1a
+  rotate: false
+  xy: 243, 25
+  size: 95, 53
+  orig: 95, 53
+  offset: 0, 0
+  index: -1
+Muzzle_Smirk_1a
+  rotate: false
+  xy: 443, 166
+  size: 95, 53
+  orig: 95, 53
+  offset: 0, 0
+  index: -1
+Tail_2a
+  rotate: true
+  xy: 2, 91
+  size: 112, 269
+  orig: 112, 269
+  offset: 0, 0
+  index: -1
+Teeth_Grin
+  rotate: false
+  xy: 641, 222
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+Torso_1a
+  rotate: false
+  xy: 350, 271
+  size: 110, 239
+  orig: 110, 239
+  offset: 0, 0
+  index: -1

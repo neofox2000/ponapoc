@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7f3f292b886b146a3eb53f8bc113ff, type: 3}
+  m_Name: Griffin
+  m_EditorClassIdentifier: 
+  saveID: 3
+  color:
+    serializedVersion: 2
+    rgba: 4283009434
+  playable: 0
+  speed: 5
+  description: Griffons are a unique avian of bird and feline.  The most common variation
+    is eagle-lion, but this is only due to their preference for being hunters, often
+    straying into equine borders on their excursions.  It is said that deep in griffon
+    territory, all manner of variations can be found.

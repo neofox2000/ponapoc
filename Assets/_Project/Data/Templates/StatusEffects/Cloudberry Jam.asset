@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fab823840d58a4b9ba7d351bc8a0b0, type: 3}
+  m_Name: Cloudberry Jam
+  m_EditorClassIdentifier: 
+  displayName: Cloudberry Jam
+  description: 
+  icon: {fileID: 21300000, guid: c83f9466738e66f4e8f4698cf8db7b10, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  duration: 30
+  statModifiers:
+  - name: HP
+    affectedStat: 7
+    power: 20
+    hidden: 0
+  - name: SP
+    affectedStat: 14
+    power: 75
+    hidden: 0
+  - name: Agility
+    affectedStat: 2
+    power: 3
+    hidden: 0
+  skillModifiers: []

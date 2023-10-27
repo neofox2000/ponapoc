@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc536694036b80f46827b766f30a5e6c, type: 3}
+  m_Name: Auto-Turret
+  m_EditorClassIdentifier: 
+  saveID: 2
+  displayName: Auto-Turret
+  color:
+    serializedVersion: 2
+    rgba: 4294967295
+  icon: {fileID: 21300000, guid: f3f537aaf45afae42aaf52f880230109, type: 3}
+  payload: {fileID: 1000011227199962, guid: b89775fa31f4c8f439393260498fa1f6, type: 2}
+  poolPayload: 0
+  description: Deploys a tripod-mounted turret that automatically fires on enemies
+    in range.
+  abilityGroup: 0
+  abilityType: 1
+  maxLevel: 10
+  power: 25
+  duration: 20
+  mpcost: 40
+  apcost: 30
+  speed: 0.5
+  range: 20
+  cooldown: 60
+  damageTypes:
+    physical: 20
+    chemical: 0
+    energy: 0
+    biological: 0
+  statusEffect: {fileID: 0}
+  pxpPerUse: 500
+  txpPerBook: 1000

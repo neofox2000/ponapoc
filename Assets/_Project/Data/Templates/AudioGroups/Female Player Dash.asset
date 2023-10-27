@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Female Player Dash
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: e08ee0b86f88e774a8d82669591479c4, type: 3}
+  - {fileID: 8300000, guid: 37562d59c37194f4b9f02f15bdc5bb5d, type: 3}
+  - {fileID: 8300000, guid: 6decd5d161c917b47b16491825d11984, type: 3}
+  - {fileID: 8300000, guid: eb812331ec7df5c43ac6a4fdb547f462, type: 3}
+  - {fileID: 8300000, guid: f60b3e8b203e48645b1bf46faa0e31c3, type: 3}
+  - {fileID: 8300000, guid: e4eb2f0dc06850a46ae9f71cebf89e8b, type: 3}
+  - {fileID: 8300000, guid: 34ecf979fb4811b4b92e83ad10c7e1e6, type: 3}
+  - {fileID: 8300000, guid: cf8ea9dd8daddcf468f50defc0a5f467, type: 3}
+  - {fileID: 8300000, guid: c4e12db10b7ada74888fa3a05c548016, type: 3}
+  - {fileID: 8300000, guid: b1b5bb4179bc5aa42895b82bb4fd65b5, type: 3}

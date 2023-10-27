@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Pickup Item
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 46e43a53f3b615b4082db6e462affbd7, type: 3}
+  - {fileID: 8300000, guid: 806b9a5cb1228864eb9437e9fa683305, type: 3}
+  - {fileID: 8300000, guid: a405c9330d383e8438a8d9b9fa2da7e8, type: 3}
+  - {fileID: 8300000, guid: 0c044b1cf9ef02f47bfa2ab12d9921c4, type: 3}
+  - {fileID: 8300000, guid: f980b37fe67dfcb41a1371b2075d041f, type: 3}
+  - {fileID: 8300000, guid: 583966914450db0478b495fe5e011c37, type: 3}
+  - {fileID: 8300000, guid: d43073e06500fea4d8fa6b601815f6d9, type: 3}
+  - {fileID: 8300000, guid: 8df7c66ab98a786419db35215ce73004, type: 3}
+  - {fileID: 8300000, guid: 06b6e3fdd2f53804e8b60aea4254579a, type: 3}
+  - {fileID: 8300000, guid: 4875c168f3aeef44e8842de1c358eb3d, type: 3}
+  - {fileID: 8300000, guid: a71eff1935e22604c856b2901a81a4b5, type: 3}

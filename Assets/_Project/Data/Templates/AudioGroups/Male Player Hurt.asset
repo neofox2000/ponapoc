@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Male Player Hurt
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 7c993ab03f30c6e48b7f32bc9a578999, type: 3}
+  - {fileID: 8300000, guid: b4660f5a661ab604fb8d52282f5ce4e2, type: 3}
+  - {fileID: 8300000, guid: 84bc1edd122d2374c839b8a585f9db55, type: 3}
+  - {fileID: 8300000, guid: 69fc5dc77c7f3a3438b1181f2db1e2cb, type: 3}
+  - {fileID: 8300000, guid: 6c820303a00dd404291605ca050c534a, type: 3}
+  - {fileID: 8300000, guid: d0b3be3230176cf4597ee92a803726d0, type: 3}
+  - {fileID: 8300000, guid: 3918c05c0be3e114d99cd522b8790472, type: 3}

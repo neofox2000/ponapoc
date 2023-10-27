@@ -1,0 +1,62 @@
+
+AutoTurret_1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_Mid_1a
+  rotate: false
+  xy: 952, 122
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+Arm_Start_1a
+  rotate: false
+  xy: 201, 2
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1
+Back_Leg_1a
+  rotate: false
+  xy: 514, 67
+  size: 277, 186
+  orig: 277, 186
+  offset: 0, 0
+  index: -1
+Central_Column_1a
+  rotate: true
+  xy: 2, 7
+  size: 82, 197
+  orig: 82, 197
+  offset: 0, 0
+  index: -1
+Central_Connector_1a
+  rotate: false
+  xy: 201, 49
+  size: 76, 40
+  orig: 76, 40
+  offset: 0, 0
+  index: -1
+Front_Leg_1a
+  rotate: false
+  xy: 793, 91
+  size: 157, 162
+  orig: 157, 162
+  offset: 0, 0
+  index: -1
+Gun_1a
+  rotate: false
+  xy: 2, 91
+  size: 510, 162
+  orig: 510, 162
+  offset: 0, 0
+  index: -1
+Top_Connector_1a
+  rotate: false
+  xy: 952, 179
+  size: 61, 74
+  orig: 61, 74
+  offset: 0, 0
+  index: -1

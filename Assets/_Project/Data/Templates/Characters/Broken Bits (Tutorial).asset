@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5798969151c8eb148be08325dbd404c7, type: 3}
+  m_Name: Broken Bits (Tutorial)
+  m_EditorClassIdentifier: 
+  saveID: 0
+  playable: 0
+  race: {fileID: 11400000, guid: c8a16c0408d0859428a7e2e450f57552, type: 2}
+  animationProfile: {fileID: 11400000, guid: 248b043f57aa7e64391250c737cdfaf3, type: 2}
+  soundsTemplate: {fileID: 11400000, guid: cfabbbda3bc566d4cb9c20577ce10a3d, type: 2}
+  weaponAnimationProfile: {fileID: 11400000, guid: 8fe96b81bb90c554cbb42aaf2828dd2a,
+    type: 2}
+  modelPrefab: {fileID: 179634, guid: 118092d10d52355479883892fdff9e0c, type: 2}
+  modelSkin: 0
+  conversationPrefab: {fileID: 1000012985240186, guid: fb4130a200ca42b44811df3884b4e473,
+    type: 2}
+  hitEffect: {fileID: 100004, guid: 1c641d32b99b2ce4a9fd95cbbb8364dc, type: 2}
+  criticalHitEffect: {fileID: 1087227788213114, guid: 1fb197fffdd0e1542b196300f61a5a6f,
+    type: 2}
+  characterSheet: {fileID: 11400000, guid: 228c27274d079684fa96a090465ea3b4, type: 2}

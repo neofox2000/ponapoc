@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7f3f292b886b146a3eb53f8bc113ff, type: 3}
+  m_Name: Gaian
+  m_EditorClassIdentifier: 
+  saveID: 0
+  color:
+    serializedVersion: 2
+    rgba: 4278224127
+  playable: 1
+  speed: 5
+  description: Gaians are the original equine race.  They have neither horns nor wings,
+    but tend to boast a higher strenght and constition.  Without the use of magic
+    or flight, Gaians turned to machines to solve their problems and typically produce
+    talented engineers.

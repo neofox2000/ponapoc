@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c342169ca63c6b14d8d5cc7933fd1507, type: 3}
+  m_Name: Last Hope
+  m_EditorClassIdentifier: 
+  saveId: 1
+  description: A bedraggled collection of hastily errected tents, huts and shacks
+  sceneName: Last Hope
+  entrances_old:
+  - name: West Field
+    portalID: 0
+    newGameVisible: 1
+  - name: West Gate
+    portalID: 1
+    newGameVisible: 0
+  - name: East Gate
+    portalID: 2
+    newGameVisible: 0
+  entrances:
+  - {fileID: 11400000, guid: 6085fefb05945b34e91cdb84f885cb1b, type: 2}
+  - {fileID: 11400000, guid: 42230bfef9360034a9ab7bbb0468f9c1, type: 2}
+  - {fileID: 11400000, guid: 4094f5c37884ae74c840cd7782d8b1f0, type: 2}

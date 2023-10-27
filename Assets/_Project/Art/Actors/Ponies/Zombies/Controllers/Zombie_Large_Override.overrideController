@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Zombie_Large_Override
+  m_Controller: {fileID: 9100000, guid: 1836a0b5c50d931429696e6f9e7111e6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7479758, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7479758, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7479626, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7479626, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7420476, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7405450, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7404280, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7411298, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7424246, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7424246, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7492774, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7492774, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7419472, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7419472, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7416138, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7411296, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7491278, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7478070, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+  - m_OriginalClip: {fileID: 7455980, guid: 5b5dd6858af350544b290d0717202a11, type: 2}
+    m_OverrideClip: {fileID: 7419662, guid: 5b5dd6858af350544b290d0717202a11, type: 2}

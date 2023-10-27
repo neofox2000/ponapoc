@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7f3f292b886b146a3eb53f8bc113ff, type: 3}
+  m_Name: Umbran
+  m_EditorClassIdentifier: 
+  saveID: 2
+  color:
+    serializedVersion: 2
+    rgba: 4294901915
+  playable: 1
+  speed: 5
+  description: Umbrans are said to be the descendants of the Goddess Umbra.  Typically
+    they look like any other equine, but they have a horn on their forehead that allows
+    them to tap into the mysterious forces of magic.  Umbrans have a tendancy to be
+    slightly more intelligent than their Auran and Gaian cousins.

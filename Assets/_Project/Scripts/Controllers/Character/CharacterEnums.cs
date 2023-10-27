@@ -1,0 +1,1 @@
+﻿public enum Expressions { Idle, Happy, Angry, Fear, Surprise, Dead, Sad }

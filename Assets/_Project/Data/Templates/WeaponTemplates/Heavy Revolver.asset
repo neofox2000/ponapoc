@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2192a895ec85a9944a2de689612813dc, type: 3}
+  m_Name: Heavy Revolver
+  m_EditorClassIdentifier: 
+  templateName: 
+  id: 0
+  fireMode: 0
+  weaponType: 0
+  reloadMethod: 0
+  ejectionMethod: 2
+  shotCount: 1
+  shotSpread: 0
+  pieceringFactor: 0
+  sounds:
+    fire: {fileID: 11400000, guid: 8eecc009e8804d840bd37de6df612003, type: 2}
+    empty: {fileID: 11400000, guid: 74dd72ccf4160b04a885c92fd83ec9ef, type: 2}
+    reloadStart: {fileID: 11400000, guid: d6f78dced354e884a8545b4fc5d32729, type: 2}
+    reloadMid: {fileID: 11400000, guid: f4308bf9d8b087a4daaf5346bf4e74e7, type: 2}
+    reloadEnd: {fileID: 11400000, guid: 61c9fd2c880c9934c8e69ed671f39557, type: 2}
+  attackEmitters:
+  - {x: 1, y: 0.227, z: 0}
+  fireEffects:
+  - scale: 3
+    prefab: {fileID: 100000, guid: 2090cd9bcf1e7c048a6882a7ba4c94f6, type: 2}
+    offset: {x: 1, y: 0.227, z: 0}
+  ejectionEffects:
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  - scale: 2
+    prefab: {fileID: 100000, guid: c10733ded2841f3449c6b636e9f9e793, type: 2}
+    offset: {x: -0.04, y: 0.1, z: 0}
+  tracerEffects:
+  - scale: 1
+    prefab: {fileID: 100000, guid: d0dbf40aee30c024da37e625b5bbf4e1, type: 2}
+    offset: {x: 1, y: 0.227, z: 0}
+  projectiles: []

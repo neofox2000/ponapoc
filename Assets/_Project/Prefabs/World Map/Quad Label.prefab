@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 462074}
+  - 114: {fileID: 11468008}
+  m_Layer: 0
+  m_Name: Quad Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462074
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11468008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145bd5c5e2d9e1e4fb4b673c80b3a62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: abcdefghijklmnopqrstuvwxyz012345689',!#?
+  textAlignment: 0
+  spacing: 0
+  wordSpacing: .5
+  mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  materials:
+  - {fileID: 2100000, guid: 5e9c00d045a3a7c488cb9a16b775b99f, type: 2}
+  fontCharacters:
+  - name: Aa
+    art: {fileID: 2800000, guid: 07089575ac8e5264e8924d4e2bcde2b2, type: 3}
+    width: .5
+    characterIds: 4100000061000000
+  - name: Bb
+    art: {fileID: 2800000, guid: 1b819a7cf72f91b4a8ec346e86b659e1, type: 3}
+    width: .5
+    characterIds: 4200000062000000
+  - name: Cc
+    art: {fileID: 2800000, guid: edf6cdbf6ae74304ebd08df679b36315, type: 3}
+    width: .5
+    characterIds: 4300000063000000
+  - name: Dd
+    art: {fileID: 2800000, guid: 575bbcf712ff559418913f077afcd2d5, type: 3}
+    width: .600000024
+    characterIds: 4400000064000000
+  - name: Ee
+    art: {fileID: 2800000, guid: 787db019a3be82e4eb477125f67eb5e5, type: 3}
+    width: .699999988
+    characterIds: 4500000065000000
+  - name: Ff
+    art: {fileID: 2800000, guid: 0fcf30658ca29aa479e18ab7397348fd, type: 3}
+    width: .5
+    characterIds: 4600000066000000
+  - name: Gg
+    art: {fileID: 2800000, guid: 64df304afd883b14db33b2b78f1355a5, type: 3}
+    width: .699999988
+    characterIds: 4700000067000000
+  - name: Hh
+    art: {fileID: 2800000, guid: e58d8d4540d479249b94e860b9ecdd3b, type: 3}
+    width: .5
+    characterIds: 4800000068000000
+  - name: Ii
+    art: {fileID: 2800000, guid: bde0c80e505eb9e40ba90259d0876a81, type: 3}
+    width: .300000012
+    characterIds: 4900000069000000
+  - name: Jj
+    art: {fileID: 2800000, guid: f09f8ffd82d656a4bbd7d528c6d711f6, type: 3}
+    width: .5
+    characterIds: 4a0000006a000000
+  - name: Kk
+    art: {fileID: 2800000, guid: 7f880cbc5189ef546a16916f1e1a4464, type: 3}
+    width: .5
+    characterIds: 4b0000006b000000
+  - name: Ll
+    art: {fileID: 2800000, guid: 4f031de36bc38ff418519ea313998726, type: 3}
+    width: .5
+    characterIds: 4c0000006c000000
+  - name: Mm
+    art: {fileID: 2800000, guid: 90bdbec1d0c984d408c1ac4204d1e1c7, type: 3}
+    width: .5
+    characterIds: 4d0000006d000000
+  - name: Nn
+    art: {fileID: 2800000, guid: a105f33e255d568418b85a0b5a963218, type: 3}
+    width: .5
+    characterIds: 4e0000006e000000
+  - name: Oo
+    art: {fileID: 2800000, guid: f5034a4d2eab7a84083901e2bc899036, type: 3}
+    width: .5
+    characterIds: 4f0000006f000000
+  - name: Pp
+    art: {fileID: 2800000, guid: 659b02807d527fc418b3db4cc6f51dad, type: 3}
+    width: .5
+    characterIds: 5000000070000000
+  - name: Qq
+    art: {fileID: 2800000, guid: 6922102deabe1a04c804528754f0fba8, type: 3}
+    width: .5
+    characterIds: 5100000071000000
+  - name: Rr
+    art: {fileID: 2800000, guid: f5dccbcd0ec533f448bea3c762995ab6, type: 3}
+    width: .5
+    characterIds: 5200000072000000
+  - name: Ss
+    art: {fileID: 2800000, guid: 666eb01153c0218478997e2d49499743, type: 3}
+    width: .5
+    characterIds: 5300000073000000
+  - name: Tt
+    art: {fileID: 2800000, guid: 81a9e99b6b7ae9a46a1ab758cc5fc139, type: 3}
+    width: .5
+    characterIds: 5400000074000000
+  - name: Uu
+    art: {fileID: 2800000, guid: 85777969b7092244b9b45a833ae27e6a, type: 3}
+    width: .5
+    characterIds: 5500000075000000
+  - name: Vv
+    art: {fileID: 2800000, guid: c1cb2554bbba0f44d97e6a2153eca6b7, type: 3}
+    width: .5
+    characterIds: 5600000076000000
+  - name: Ww
+    art: {fileID: 2800000, guid: 1c60718127e37154f8058d502cbb232b, type: 3}
+    width: .5
+    characterIds: 5700000077000000
+  - name: Xx
+    art: {fileID: 2800000, guid: 4edb4079305882248bd8e1d3b6819529, type: 3}
+    width: .5
+    characterIds: 5800000078000000
+  - name: Yy
+    art: {fileID: 2800000, guid: 65c1ecfda97018545ad30e3c34d40643, type: 3}
+    width: .5
+    characterIds: 5900000079000000
+  - name: Zz
+    art: {fileID: 2800000, guid: 6d8b6bd0ced29c942b97269416ddebac, type: 3}
+    width: .5
+    characterIds: 5a0000007a000000
+  - name: 0
+    art: {fileID: 2800000, guid: 068ec413ad15d53468c2120ad950fc50, type: 3}
+    width: .5
+    characterIds: 30000000
+  - name: 1
+    art: {fileID: 2800000, guid: dbaf75cb0d588ae49abcac7efa1e1c02, type: 3}
+    width: .5
+    characterIds: 31000000
+  - name: 2
+    art: {fileID: 2800000, guid: 8c19e1a0bf50acf419b6ca267b046341, type: 3}
+    width: .5
+    characterIds: 32000000
+  - name: 3
+    art: {fileID: 2800000, guid: 8f4a5f7077a6a14459565f2111c21bba, type: 3}
+    width: .5
+    characterIds: 33000000
+  - name: 4
+    art: {fileID: 2800000, guid: bad1410473676bf448912f6b2fbc9bfe, type: 3}
+    width: .5
+    characterIds: 34000000
+  - name: 5
+    art: {fileID: 2800000, guid: caa9f21fe049591438e4bcb178dbdbeb, type: 3}
+    width: .5
+    characterIds: 35000000
+  - name: 6
+    art: {fileID: 2800000, guid: 849e0fdf032dc754c92caf86b02c9727, type: 3}
+    width: .5
+    characterIds: 36000000
+  - name: 7
+    art: {fileID: 2800000, guid: 90f4c65899f28b94fba1856095171d32, type: 3}
+    width: .5
+    characterIds: 37000000
+  - name: 8
+    art: {fileID: 2800000, guid: 39196e6f1d844bf4c8075b6d6dc3b1f9, type: 3}
+    width: .5
+    characterIds: 38000000
+  - name: 9
+    art: {fileID: 2800000, guid: 629cac10c8658864395148eccb275ea3, type: 3}
+    width: .5
+    characterIds: 39000000
+  - name: ''''
+    art: {fileID: 2800000, guid: 17e5ef807db798247aee08e8c661479c, type: 3}
+    width: .200000003
+    characterIds: 27000000
+  - name: ','
+    art: {fileID: 2800000, guid: 9c8816289571ad449a7b889e8ffd5a93, type: 3}
+    width: .5
+    characterIds: 2c000000
+  - name: '!'
+    art: {fileID: 2800000, guid: e54e7f66179937a41ab2a418ee64b778, type: 3}
+    width: .5
+    characterIds: 21000000
+  - name: '#'
+    art: {fileID: 2800000, guid: 8efd568751665cd4ea8c1f1c5d55caf4, type: 3}
+    width: .5
+    characterIds: 23000000
+  - name: '?'
+    art: {fileID: 2800000, guid: 3b60f229eabcb7f41812e733593812c7, type: 3}
+    width: .5
+    characterIds: 3f000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109484}
+  m_IsPrefabParent: 1

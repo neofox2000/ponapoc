@@ -1,0 +1,17 @@
+2017-09-05
+* Dropped items will now appear on the ground
+* Loot bags are no longer automatically picked up
+
+2017-09-08
+* Fixed duplicate music tracks causing unnecessary transitions
+
+2017-09-14
+* Made dash attack hit-check bigger
+* Added overweight indicator
+
+2017-09-29
+* Added text log panel (<Capslock/Xbox-Back> to toggle)
+* Popup messages and NPC conversations will show now in the log panel
+
+2017-09-30
+* Replaced all music

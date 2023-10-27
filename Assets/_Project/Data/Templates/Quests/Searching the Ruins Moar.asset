@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cea481911a0ea446b8a21fb7dc2eebc, type: 3}
+  m_Name: Searching the Ruins Moar
+  m_EditorClassIdentifier: 
+  saveID: 2
+  timeLimit: 0
+  description: Search the Downtown areas for the sugar factory.
+  successDescription: 'The sugar factory turned out to be a complete waste of time!
+
+    Maybe there''s something beyond the woods south of here...'
+  failureDescription: 

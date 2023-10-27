@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401ab3f0478600e4fbb6b1af1dd55bf9, type: 3}
+  m_Name: Player Male
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Long Attack
+    sound: {fileID: 11400000, guid: abd15db0f0ed0fa4d96c87d2aee88556, type: 2}
+    key: 0
+  - name: Hurt
+    sound: {fileID: 11400000, guid: 8c5ed8c3ccca2e24c8adae2eb453df19, type: 2}
+    key: 13
+  - name: Death
+    sound: {fileID: 11400000, guid: 628a9c709a128a445a0ce37f48c28e9a, type: 2}
+    key: 0
+  - name: Short Attack
+    sound: {fileID: 11400000, guid: a7eb0c468486ed34daebab610fa0ea42, type: 2}
+    key: 0
+  - name: Footstep
+    sound: {fileID: 11400000, guid: 43304a1bdd8b18548b9932d743eda19b, type: 2}
+    key: 0
+  - name: Dash
+    sound: {fileID: 11400000, guid: e1cab571005588f488c7b1fc6b02b9c7, type: 2}
+    key: 0
+  - name: Battle Cry
+    sound: {fileID: 11400000, guid: f644b392cec7bbd4c84983cedbb4fef3, type: 2}
+    key: 0

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Hookbill Machete
+  m_EditorClassIdentifier: 
+  saveID: 37
+  description: Fancy slicin' for the stylish warrior on the go!
+  icon: {fileID: 21300000, guid: c52fd12aa313d0f43b6360aa029e5fe5, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 0
+  weaponTemplate: {fileID: 11400000, guid: 895b5692141597d44963bd46ce28e67c, type: 2}
+  damageMatrix:
+    physical: 15
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 0
+  chargeUse: 0
+  shotCount: 1
+  power: 15
+  weight: 1.5
+  useDelay: 0.4
+  reloadDelay: 1
+  range: 1
+  value: 75
+  piercingFactor: 0.2
+  shotSpread: 0
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

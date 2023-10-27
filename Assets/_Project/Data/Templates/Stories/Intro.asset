@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3365eecc8be32094aa3679f12f9cbf5f, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  headingTextColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  bodyTextColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  before: 3
+  after: 5
+  heading: Once Upon A Thingy
+  body: 'Sugar.
+
+    Sugar never changes.
+
+    Except for when it runs out... that''s a pretty big change.
+
+
+    We mined every deposit, on and off shore.
+
+    We accused other nations of hoarding while we did just that.
+
+
+    Everyone thought the world would end in fire, bombs dropping out of the sky on
+    unsuspecting cities...
+
+
+    It was worse.
+
+
+    There were no air raid sirens.  No calls to stay in-doors and wait for further
+    instructions.  Just a quiet squirrelling away of a few bright minds and many loyal
+    or desperate labourers.
+
+
+    Everyone else, well...
+
+
+    It''s been 40 years since the slow, suffering decline of civilization.  We join
+    an unlikely heroine as she ventures forth from her home; a stadium-turned-shelter
+    meant to keep those inside safe from the horrors beyond its reinforced walls.
+
+
+
+    [Dev Note: A prequel is still under construction to set the stage for leaving
+    the starting area, so for now we''re just going to dump you into a later stage]'

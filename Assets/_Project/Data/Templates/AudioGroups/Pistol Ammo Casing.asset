@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Pistol Ammo Casing
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 2e4c25a63f1a4f4488f34365bb88aa3e, type: 3}
+  - {fileID: 8300000, guid: f3451a79f8bdf5548a5cdb02b5ba282a, type: 3}
+  - {fileID: 8300000, guid: baa4918117c425342832aee644f92ac0, type: 3}
+  - {fileID: 8300000, guid: 87874773c728cc647a811e56548d36e0, type: 3}
+  - {fileID: 8300000, guid: 6e5f4a2c99bf8694799d5b178a13e187, type: 3}
+  - {fileID: 8300000, guid: 9c0b248b777a3674aa84a7b5b4bde450, type: 3}
+  - {fileID: 8300000, guid: d5f8ae4fc016a6f4ab2b52c46e27dd98, type: 3}
+  - {fileID: 8300000, guid: 6d073162493da364ab1235dcb91c6c0e, type: 3}
+  - {fileID: 8300000, guid: 831bfc4ec6a7c664d85c096c0de61b97, type: 3}
+  - {fileID: 8300000, guid: 3f864bc83a1aac543ac114a053f7d2f6, type: 3}

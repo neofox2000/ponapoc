@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb2cdbb3f45574408f71fcd8ed0d32b, type: 3}
+  m_Name: Maresville Ruins West Street
+  m_EditorClassIdentifier: 
+  saveId: 0
+  displayName: Outskirts - West Street
+  parentLocation: {fileID: 11400000, guid: 1e8ea063d2034ab49b7ea47e6afb9336, type: 2}
+  newGameVisible: 1

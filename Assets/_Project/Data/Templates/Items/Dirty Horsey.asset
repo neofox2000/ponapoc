@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Dirty Horsey
+  m_EditorClassIdentifier: 
+  saveID: 18
+  description: Do you feel lucky, punk?
+  icon: {fileID: 21300000, guid: 06938e25ed49aa044b39aee46c1e5149, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 0
+  weaponTemplate: {fileID: 11400000, guid: ccf04efa167f5244eafb0f91ae0a95ff, type: 2}
+  damageMatrix:
+    physical: 60
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 1
+  chargeCount: 6
+  chargeUse: 1
+  shotCount: 1
+  power: 60
+  weight: 4
+  useDelay: 0.75
+  reloadDelay: 3
+  range: 10
+  value: 150
+  piercingFactor: 0
+  shotSpread: 24
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

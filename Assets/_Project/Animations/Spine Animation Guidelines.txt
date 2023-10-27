@@ -1,0 +1,48 @@
+General Guidelines
+
+- Animation Event ID references start at 0 instead of 1
+	eg:	Ability 1 requires an "executeAbility" event with a float parameter of 0,
+		ability 2 will have a parameter setting of 1
+
+- Animation Event parameters only use the float parameters.
+	The string and integer parameters will always be ignored.
+
+- Emitter bone positions should be set as many frames back as possible before they are actually needed to avoid syncronization problems
+
+
+
+Animation Events Explained
+
+attackHitCheck:	Keyed at the point when an attack should hit the target
+	the check will take place at the emitter_meleeAttack1 bone's position
+
+cameraShake:	Keyed when the camera should shake.
+	param -> shake magnitude.  1 = weak.  2.5 = average. 5 = violent.  valid range = 0.5 to 10
+
+executeAbility:	Keyed at the point where the ability will fire it's payload. (depends on ability)
+	nb: the ability's "payload" will be spawned on the emitter_SpecialEffects bone (see emitter bone positioning note at the top)
+
+moveCharacterX:	Creates a constant horizontal movement of the character.
+	param -> 0 = stop movement.  1 = normal speed forward.  -1 = normal speed backward.  valid range = -10 to 10
+
+moveCharacterY:	Creates a constant horizontal movement of the character.
+	param -> 0 = stop movement.  0.25 = normal speed up.  -0.25 = normal speed down.  valid range = -4 to 4
+
+playCharacterSound:	plays a sound from the character's sound configuration settings
+	param -> id of the sound to play.  Refer to configuration data in Unity
+
+playWeaponSound:	plays a sound from the weapon's sound configuration settings
+	param -> 0 = fire. 1 = dryFire. 2 = reloadStart.  3 = reloadMid.  4 = reloadEnd.
+	(dryFire = firing without ammo.)
+	(reloadStart depends on weapon.  For clip-based animations, it is the clip release.  For shotguns it would be opening the chamber)
+	(reloadMid is usually for single-round reloads, playing when a round is inserted)
+	(reloadEnd depends on weapon.  For clip-based animations, it is when the is clip inserted.  For shotguns it would be closing the chamber and so on)
+
+reloadAmmoAdd:		Keyed at the point where the animation has gone far enough to consider the ammo added.
+	(for single-round reloads, it is keyed for each round added)
+
+spawnEffect:	keyed when an effect should appear.  The position of the effect is determined by the position of the emitter_SpecialEffects bone.
+	param -> id of effect.  Refer to configuration data in Unity.
+
+throwingWeaponRelease:	keyed at the point where the throwing weapon should spawn and begin flight
+	the weapon will spawn at the position of the "emitter_meleeAttack1" bone

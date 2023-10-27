@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Fire Axe
+  m_EditorClassIdentifier: 
+  saveID: 31
+  description: Heavy choppin'
+  icon: {fileID: 21300000, guid: 0a964ca7c2820f349a9bd1246907a358, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 0
+  weaponTemplate: {fileID: 11400000, guid: 760cd378bd4a1cc4ea815d17a16e66cd, type: 2}
+  damageMatrix:
+    physical: 40
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 0
+  chargeUse: 0
+  shotCount: 1
+  power: 40
+  weight: 5
+  useDelay: 1.25
+  reloadDelay: 1
+  range: 2
+  value: 250
+  piercingFactor: 0
+  shotSpread: 0
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

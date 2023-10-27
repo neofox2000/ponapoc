@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401ab3f0478600e4fbb6b1af1dd55bf9, type: 3}
+  m_Name: Sandy Scraps
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Female Merchant Greeting
+    sound: {fileID: 11400000, guid: 0612ed97c3503ba40b5be578369b3dde, type: 2}
+    key: 1
+  - name: MerchantFemaleBarterStart
+    sound: {fileID: 11400000, guid: c1b5348bb3600364eb1e132ecd32d796, type: 2}
+    key: 9
+  - name: MerchantFemaleBarterAccept
+    sound: {fileID: 11400000, guid: 319320baeb3698040b3c89157f75fcbf, type: 2}
+    key: 3

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e92e800e1b4484c971c811a51b9fe9, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  weaponAnimations:
+  - weaponItemID: 16
+    animationKey: 3
+  - weaponItemID: 17
+    animationKey: 3
+  - weaponItemID: 18
+    animationKey: 3
+  - weaponItemID: 19
+    animationKey: 3
+  - weaponItemID: 20
+    animationKey: 4
+  - weaponItemID: 21
+    animationKey: 4
+  - weaponItemID: 22
+    animationKey: 4
+  - weaponItemID: 23
+    animationKey: 4
+  - weaponItemID: 24
+    animationKey: 4
+  - weaponItemID: 25
+    animationKey: 4
+  - weaponItemID: 26
+    animationKey: 4
+  - weaponItemID: 27
+    animationKey: 3
+  - weaponItemID: 28
+    animationKey: 4
+  - weaponItemID: 29
+    animationKey: 4
+  - weaponItemID: 30
+    animationKey: 1
+  - weaponItemID: 32
+    animationKey: 1
+  - weaponItemID: 33
+    animationKey: 1
+  - weaponItemID: 34
+    animationKey: 1
+  - weaponItemID: 36
+    animationKey: 1
+  - weaponItemID: 37
+    animationKey: 1
+  - weaponItemID: 38
+    animationKey: 1
+  - weaponItemID: 39
+    animationKey: 1
+  - weaponItemID: 31
+    animationKey: 2
+  - weaponItemID: 35
+    animationKey: 2

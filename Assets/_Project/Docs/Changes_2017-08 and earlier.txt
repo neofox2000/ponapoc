@@ -1,0 +1,572 @@
+2017-08-31
+* Fixed details GUI panels sometimes getting stuck on screen when closing the character sheet.
+* Updated tutorial signs to be more interesting.
+* Updated tutorial NPC's dialog.  It's about 10% less cringy.
+* AP Regen will now be much faster and the Constitution stat will have a much bigger impact.
+* Fixed certain player voice effects playing incorrectly during melee combat.
+
+2017-08-30
+* Added Vulkan and DX12 support - the game will attempt to use those before falling back to DX11.
+* Fixed a movement speed bug when playing on Vulkan.
+* Rebalanced food items.  Most noteably, they now provide significantly more SP.
+
+2017-08-28
+* Added damage/resistance types: physical, chemical, energy and biological
+* Updated items and abilities with appropriate damage types
+* Changed Item Details panel to show damage/resistance types
+* Changed unarmed charge-up attack to do siginificantly more damage for every second held (up to 3 seconds)
+* Changed the stats sheet to only show the damage/crit of the equipped weapon
+
+2017-08-24
+[Internal]
+- Removed unused/obsolete properties from rec_Item
+- Renamed itemClass to weaponClass in rec_Item
+- Added missing Tooltips for almost every property of rec_Item
+- Added damage type stats to rec_Item
+
+2017-08-23
+* XP will no longer be gained from killing enemies
+* XP can now be gained from over-eating
+* Armor sets have been simplified to just one item each
+* Loot tables have been modified to accommodate XP and armor changes
+
+2017-08-21
+* Pressing Dash while Sneaking no longer does anything (bad or good)
+* AP recovery now has a delay after beging used
+* Removed 'Currency' item types
+
+2017-08-18
+* Added new sound effects for almost everything
+* Fixed critical hit sound playing for normal hits
+* Fixed certain sound effects not playing in the correct position
+
+2017-08-11
+* Added Contamination stat
+* Modified certain consumable items to add contamination
+* Modified food consumable item descriptions
+
+[Internal]
+- Removed redundant effects list from items database entries
+- Stat effects can now be hidden from the player using the 'hidden' checkbox when setting them up
+- Stat effect readouts will only show a number if they are over 0.5
+
+2017-07-31
+* Tutorial sign art replaced
+
+2017-07-11
+* Stat and Skill rows no longer add/subtract when navigating left and right
+
+[Internal]
+- SayDialog.cs: Added new property and code to make a premade version the default
+	(instead of creating a new one in the loader scene)
+
+2017-06-29
+* Movement should now feel the same in all areas
+
+2017-06-28
+* Tutorial area art updated
+
+- Fixed: Equip the correct weapon when entering a mission area
+- Fixed: Clicking on the world map causes travel on both down and up mouse events
+- Removed: Old Maresville scene & art
+- Fixed: Tutorial building box stack needs re-arranging
+
+2017-06-27
+* Added slightly better placeholder icons for ammo, currency and resource items
+* Pressing F1 will now show the game's controls
+* Your active quickslot selection will now be saved between missions and savegames
+
+2017-06-05
+* Fixed: Pressing RT would also activate the LT and vica-versa
+* Fixed: Hitting 'Tab' in the barter window would get you stuck in the character screen
+* Fixed: World Map travel with xbox controller didn't work
+* Fixed: Trying to load a game after exiting from the world map would instead try to save the game
+* Fixed: Switching character sheet tabs with the controller left old info panels showing
+* Fixed: Closing the character sheet while assigning a quickslot should no longer cause problems
+* Fixed: Throwing weapon animation can get 'stuck', preventing further use
+* Changed: Throwing weapons now have a 1 second delay between uses
+
+2017-06-02
+* Removed old Ability-Quickslot HUD
+* Removed ammo and throwing HUD
+* Added new Omni-Quickslot HUD
+* Changed Dash to a core game mechanic rather than an ability
+* Changed ability name "Mudpony Strength" to "Feral Rage"
+
+2017-05-30
+* Character UI overhauled
+* Added quick-help bar at the bottom of most UI panels
+* Increased stamina regen rate
+* Added huge new Maresville art set
+
+2017-05-08
+* Changed inventory UI to grid layout
+
+2017-05-03
+* Changed most of the tutorial to interactable signs instead of forcing you to read them all
+* The book pickup in the tutorial building should no longer give a 0 stack
+* Last Hope guards should no longer be visually glitched
+* AI can now use any weapons given to them
+* Added new Raider enemies that will make an appearance in Maresville (using player model for now)
+* Raider will attack non-raider characters
+* Zombies will attack non-zombie characters
+* Enemies can now target and attack your auto-turret
+* Screenshot button (F12) should now work
+* Removed old hotkey bar (a new UI will be added later)
+
+2017-04-14
+* Removed sneaking attack variations - you will now go into normal attack animations instead
+* Removed ~Sneaking~ hud indicator (it was just silly)
+# Normalized weapon class animations into a database of profiles that can be assigned to character configurations
+### Each character can now be wired up to their own weapon/animation relationships
+# Started prepping statemachine for placeholder ranged weapon mobs
+
+2017-04-12
+* Acid projectile hit radius has been reduced by 50%
+* Acid projectiles will now hit obstructions
+* Special effects should no longer appear behind objects that they are actually in front of
+* Monsters Woods trees and boulders should now draw and obstruct attacks properly
+* You will no longer get stuck when trying to pick a lock
+
+2017-03-31
+Changed: Reduced the animation speeds for all zombie attacks
+Changed: Endurance now gives AP regen
+Changed: Dash ability now uses AP instead of MP
+Changed: Mudpony Strength ability now uses AP as well as MP
+Changed: Auto-Turret ability now uses AP as well as MP
+Changed: The popup for abilities will now show all stats no matter where it is shown
+Fixed: Firing a gun will no longer prevent AP from regenerating
+Fixed: AP will now properly deplete when low (using a big attack when low will take much longer to recover from)
+Fixed: Kick animations will no longer hit enemies or consume AP twice
+
+2017-03-29
+Changed: Critical hits now have their own unique effects
+Changed: Zombies should be a little less vocal when being clobbered
+Changed: Reduced the animation speeds for some of the faster player unarmed attacks
+
+2017-03-28
+Added: Prompt to confirm trades if the trade balance is heavily in favor of the NPC
+Added: Prompt to cancel trades if there are any items in the baskets
+Added: Hagglign button in the barter screen will now show "No Haggling" when all attempts have been used up
+Added: Gameplay option to turn off floating health bars
+Changed: Crafting window should now reset the selection when changing from Craft to Disassemble or vica-versa
+Changed: NPCs turn to face player when interacting
+Added: Screenshake for critical hits
+
+
+2017-03-22
+Changed: Stat bars now regenerate smoothly
+Fixed: Trying to load your game after dying will no longer try to save instead (and break the game if you do)
+Changed: Text during death screen now has a background and should be easier to read (it also fades in a little faster)
+Changed: You no longer regen stamina while attacking
+Changed: Reduce stamina costs for unarmed attacks
+Removed: Green numbers will no longer fly out of your feet when you gain HP
+
+2017-03-21
+Added: Charge-up attack to the end of the unarmed combo
+
+2017-03-07
+Changed: Player running animation (hopefully for the better?)
+Changed: Removed obsolete sneaking versions of the fire and aim animations
+Added: Three more moves to the unarmed attack combo
+
+2017-03-03
+Changed: Player colors are darker to avoid blinding
+Added: Support for different lighting in each area/room (actual lighting changes coming soon)
+
+2017-02-28
+Changed: 'Dash' key to [Shift]
+Changed: 'Sneak' key to [Control]
+Changed: Xbox Controller 'Cycle Weapon' button to [DPad Left]
+Changed: Xbox Controller 'Use Defensive Ability' button to [Left Stick Click]
+Changed: Xbox Controller 'Sneak' button to [Left Bumper]
+Changed: Xbox Controller 'Use Throwing Weapon' to [X]
+Changed: Xbox Controller 'Use Offensive Ability' button to [Right Stick Click]
+Changed: Xbox Controller 'Cycle Offensive Ability' button to [DPad Down]
+Added: 'Secondary Fire' action (unused for now) to Xbox Controller [Left Trigger] and Mouse [Right-Click]
+Changed: 'Max HP' no longer gains anything from the 'Strength' stat
+Changed: 'Max MP' no longer gains anything from the 'Intelligence' stat
+Fixed: 'Max MP' no longer gains anything the from 'Constitution' stat (changed to 'Charisma')
+Changed: 'Auto-Turret' ability 'MP' cost reduced from 60 to 40
+Changed: 'Auto-Turret' ability 'Cooldown' increase from 15 to 60 seconds
+Changed: 'Mud Pony Strength' ability 'MP' cost reduced from 50 to 25
+Changed: 'Strength' stat effect on 'Melee Crit Rate' reduced from 1.5x to 1x
+Changed: 'Cracking' skill text use of the word "virtual" to "electronic"
+Changed: 'Mana Weapons' skill renamed to 'Tech Weapons' and updated the description
+Changed: 'Charisma' stat no longer affects haggle chances in barter
+Changed: You now have a minimum of 2 haggle chances in barter
+Changed: 'Eloquence' skill now adds another haggle chance for every 20 points
+Changed: Tooltip background color to very dark orange / transparent
+Changed: Tooltips will stay within the screen bounds
+Fixed: Walking in front of the boxes in the tutorial building draws them on top of the player
+Removed: HP, MP and SP bar text
+Fixed: Tutorial building door now plays the wrong sound when used
+Fixed: Reload tutorial text is too long for the box
+Fixed: Some of the Tutorial NPC's text was too long for the box
+Added: Something nice in the sewers
+Changed: Item pickup text will no longer follow the player around before it disappears
+Changed: Item pickup text will appear above the player's head instead of at their feet
+Fixed: 'Auto-Turrent' skill book plays the wrong sound when used
+Changed: Options should now SAVE when using the Xbox Controller Cancel button to back out (unless the Cancel menu option is highlighted)
+Fixed: Typographical errors in Last Hope's Gate Guard Conversation
+Changed: Increased 'Candy Wrapper' droprate on zombies from 1% to 5%
+Fixed: Xbox Controller 'Cancel' button does nothing in barter screen
+Fixed: Increased repeat rate and shortened delay for Xbox Controller navigation
+Changed: Tooltip will now go away when an item is used from the Inventory screen
+Fixed: Town storage box does not work
+Added: 'Exhausted' indicator if you try to attack when your stamina has been depleted
+Added: 'Save' button to the World Map's button bar
+Removed: Mouse edge-scrolling from World Map
+Changed: HP and SP bars in the World Map now look a little nicer
+Changed: The Mouse pointer will disappear when not used for a while (and reappear moved or clicked)
+Fixed: Xbox Controller Cancel button doesn't work when storage box item sections are highlighted
+Changed: Reduced Rifle ammo base value from 5 to 3
+Changed: Reduced Shotgun ammo base value from 4 to 2
+
+
+2017-02-24
+Changed: Locked door in Maresville Ruins now requires 20 Jacking to pick
+Added: The secret room in Maresville Ruins now contains a loot crate with a key for the locked door
+Changed: HP, MP and SP bar colors.  They should do less damage to eyeballs
+Added: Basic stamina system (tied to SP).  All melee attacks cost the same 10 stamina for now
+
+2017-02-23
+Added: Lockpicking (hold the Use button)
+
+2017-02-10
+Added: Locks (for doors and other interactable objects)
+
+2017-02-07
+Added: "Take All" button to Storage window
+
+2017-02-03
+Fixed: Controller Navigation got stuck on Character Creation elements at the top of the screen
+Changed: Special effect for lootables is now much more subtle
+Changed: Lootables now need to be taken manually by pressing the 'Use' button
+Changed: Loot tables and starting items have been refined for NPCs
+Changed: Enemies now use loot tables instead of random choices from the entire item database
+
+2017-02-02
+Fixed: All Known Issues from last build
+
+2017-02-01
+Fixed: Crafting bench now appears in Last Hope again
+Fixed: Confirming haggle dialog with the controller should no longer trigger another haggle attempt
+
+2017-01-31
+Added: More Controller support (most of the game is functional)
+
+2017-01-20
+Fixed: World Map encounters break game (disabled encounters for now)
+Added: More Controller support (main menus working, world map sort of working)
+
+2017-01-19
+Added: Limited Xbox Controller support (menus still need mouse)
+
+2017-01-13
+Changed: Most previously procedurally enabled objects have been made permanent
+Changed: Lootable Object states now persist in saved games
+Changed: One of the Appartment buildings in Maresville is now open for business (but kinda bare)
+
+2016-10-27
+Added: Buff ability "Mudpony Strength"
+Added: Buff/Debuff Areas (healing in town, damage from standing in acid pools, etc)
+Improved: Locations, rooms and other occupiable spaces now support any number of entrances and exits (instead of just 1 each)
+
+2016-09-04
+Added: New interior art set for city buildings
+
+2016-09-30
+Added: Player starts with both Dash and Auto-Turret abilities (for now)
+Added: Ability books that can be used to gain Theory Exp on known abilities
+Added: MP potions
+Changed: Theory Levels now affect how much Practice Exp can be gained each time an ability is used
+Changed: Practice Levels now affect Auto-Turret Damage
+Changed: Many food items now add MP and have had minor tweaks to their other stats
+Fixed: The "Show Numbers" gameplay option should now save & work as intended
+Fixed: Last Hope Gate Guards conversation trigger should always work now
+
+2016-09-29
+Changed: Abilities now cost MP and have a cooldown time
+Added: Alerts when trying to use abilities on cooldown or lacking MP
+Added: Details popup for abilities when mousing over them in the HUD
+Changed: Dash is now an ability and must be assigned to a slot to activate it
+Changed: Dash now costs MP instead of SP
+
+2016-09-27
+Added: Auto-Turret
+
+2016-09-26
+Optimized: Special effects.  Should use less CPU & Memory.
+
+2016-09-20
+Added: Acid Spit ability for certain zombies
+
+2016-09-16
+Removed: Race and Age options from the Character Creation Screen
+Changed: Player will be Gaian (no horn no wings)
+
+2016-09-15
+Added: Abilities GUI
+
+2016-09-07
+Changed: Default volume settings have been lowered
+
+2016-09-05
+Changed: Melee attacks now have different damage multipliers throughout the combo (generally higher as the combo goes on)
+Changed: Reduced base HP from 50 to 20
+Added: Explosion effect when using 2-handed weapons with the dashing attack
+
+2016-09-01
+Changed: Updated various tutorial texts to reflect new changes
+
+2016-08-26
+Fixed: Melee damage buff were boosting unarmed damage too much due to a calculation error
+Fixed: Tutorial NPC's dialog was wrong
+Fixed: Exit button did not close the game from the title menu
+Fixed: Tutorial dialog options with stat reqs were too high
+Fixed: Last Hope gate guard dialog options with stat reqs were too high
+
+2016-08-25
+Added: Outro when dying
+
+2016-08-24
+Added: Male voice variants
+
+2016-08-23
+Added: Character creation module
+Changed: Race/Gender choices now alter character visually
+Added: Temporary (static) wing art to show Auran race choice
+Fixed: Inventory & Crafting gui update bugs (items not changing when clicked)
+Changed: The "Tab" key is now dedicated to toggling the Character Sheet
+
+2016-08-09
+Changed: "Roughing It" skill now reduces all SP use
+Changed: SP will no longer regenerate in towns
+Added: Food Dude in Last Hope
+Fixed: Loot system generated progressively less loot
+Fixed: Escape key now works again
+Internal: Added loot table support for individual entities (npcs & enemies so far)
+
+2016-08-08
+Changed: SP no longer drains faster with higher strength
+Changed: Each point of Strength now gives 1.5% crit chance with melee weapons
+Changed: Each point of Dexterity now gives 1.5% crit chance with ranged weapons
+Changed: Each point of Agility now gives 1.5% crit chance with unarmed attacks
+Changed: Merged Stats, Skills and Inventory screens
+Improved: Melee hitboxes (again)
+Fixed: Piercing melee weapons didn't hit multiple targets
+Added: Damage text can now be hidden (default) in the gameplay options
+Changed: Consumables switched to instant instead of regen
+Balanced: Ambiguous skills (eg: Light Weapons) now give half the bonus of more specific skills (eg: Pistols)
+Changed: Sped up unarmed attacks
+Fixed: Loot tables were broken
+
+2016-08-05
+Changed: Stat and Skill sheets now have both + and - buttons for tweaking
+Changed: Stat and Skill sheets now have save buttons to make changes permenant when you're finished tweaked
+
+2016-08-03
+Added: Screen shakes
+Added: Throwing weapon ammo UI
+Changed: Reworked Dialogue GUI a bit
+Changed: Reworked ammo GUIs
+Changed: Charisma now increases haggle attempts
+Changed: Base-stats are capped at 10
+Changed: Base-skills are capped at 200
+Changed: Added new stat modifiers
+Changed: Rebalanced stats existing stat modifiers
+
+2016-08-02
+Added: Better placeholder throwing weapon art
+Added: Enemies are staggered when hit for more than 33% of their max HP
+Changed: Decreased dashing speed by 25%
+Changed: Movement speed is no longer tied to the Slinkiness stat
+Changed: Player base movement speed increased
+Changed: Movement speeds adjusted for all enemies
+Changed: Base HP increased from 5 to 50
+Changed: HP & MP formula changed.  Both are now much more dependent on their respective stats
+Changed: Rebalanced weapon damage
+Changed: Dashing now costs SP to use (reduced by Slinkiness skill)
+Changed: 2h-weapon attack combo is now quicker on the 1st chain to balance the long recovery on the 2nd attack
+Changed: 1h-weapon attack combos should be a little faster
+
+2016-08-01
+Added: Placeholder dash effect and sound
+
+---
+
+2016-07-29
+Added: Melee dashing attacks
+Fixed: Melee hitbox size and positioning - Melee attacks should feel much nicer
+
+2016-07-28
+Added: Double-tab dashing
+
+2016-07-26
+Added: Throwing weapons
+
+2016-07-25
+Fixed: NPCs missing inventory during barter
+Fixed: Big Zombies didn't get close enough to land an attack
+
+2016-07-15
+Changed: NPC Traders in Last Hope will now remember their stats, inventory and how much you haggled them
+
+2016-07-14
+Added: Player storage in Last Hope (Green box near entrance)
+
+2016-07-12
+Added: New Broken Bits / Male Trader placeholder art
+Fixed: Zombie art should no longer glitch in Infested areas
+
+2016-07-07
+Added: New Female Trader NPC placeholder art
+Changed: Player colors and hair style
+Fixed: Helmets do not cover hair properly
+
+---
+
+2016-06-28
+Added: Zombie variants
+Changed: Traders will now sell you their equipped items
+Fixed: Bad camera positioning when conversing with NPCs inside buildings
+Fixed: Foreground trees clipping in random forest encounters
+Fixed: Quest trigger spawning in random forest encounters
+
+2016-06-10
+Fixed: Muzzle positions on shotguns
+Added: Temporary zombie art model
+
+2016-06-08
+Fixed: Missing weapon sounds
+Changed: Default facial expression to something less creepy
+
+2016-06-07
+Changed: Camera zooms smoothly during conversations
+
+2016-06-03
+Changed: Gate Guard's voice when starting conversations
+Changed: Camera zooms in on speakers during conversations
+
+2016-06-02
+Added: Gate Guard conversation at Last Hope entrance
+Fixed: The crafting table's draw order broken in certain city buildings
+Fixed: Last Hope entrance fencing draw order broken
+Fixed: The intro screen's text spills outside of the screen boundary
+Balance: 250% increase in unarmed damage modifier from Kunghoof skill
+
+Known Issues
+- Sometimes the Gate Guard conversation will not trigger - save the game, restart it and try again
+- Portraits appear blank.  The portrait system is going to be removed in favor of a system where the camera focuses on the actual speaker (not in yet)
+
+2016-05-27
+Added: New Last Hope entrance art and guards
+Added: New Last Hope art
+Added: New crafting bench art
+Removed: XP/Level bar (you can still check these in the stats menu)
+Changed: Free stat and skill points are now shown next to your hp/mp/sp bars
+Changed: Reduced prices of pistol ammo
+Changed: Increased all ammo drop rates
+Changed: Shotgun & Rifle ammo will only drop in downtown and up
+Changed: Mana weapon ammo will only drop on explore mode missions
+Changed: NPCs will now equip items in their inventory
+Changed: Lootable objects range adjusted
+Changed: Disabled F attack
+Changed: Downtown mission set was too long - made it 2 sequences instead of 3 sequences
+Changed: Adjusted enemy density (lowered) and spawning rates (increased delay) in Downtown missions
+Changed: Body hitbox to prevent hits from passing through the neck area
+Changed: Player colors to be more in-line with environment art
+Changed: Scrap Metal armor set colors - they were just too horrible
+Balanced: Increase HP gain from Endurance stat
+Fixed: Weapon not visually unequipping on death
+Fixed: Point-blank hit detection ignores depth
+Fixed: Mobs sometimes spawn too close to camera
+Fixed: Pistol's bullet casing physics
+Fixed: Crafting bugs
+Fixed: Entering Last Hope from the Entrance gate sometimes results in a blank screen
+Fixed: The map blocker doesn't get clear after completing the Monsters Woods quest
+Fixed: New Mission icons appeared when they shouldn't and vica versa
+
+2016-04-28
+Added: More polished Monsters Woods art
+Changed: Temporarily moved old Monsters Woods art to the generic forest areas
+Changed: In-mission HUD to provide more visibility; more changes coming later
+Changed: Starting weapon from "Snub-nose Pistol" to "Pistol"
+Changed: Increased starting ammo to 24 to 48
+Fixed: Pointblank shooting bugs
+Fixed: Item equipping bugs
+
+2016-04-22
+Added: New character art
+Added: New equipment art
+
+2016-02-16
+Fixed: A billion bugs
+Added: Diffifulty options
+Improved: WebGL build
+
+2015-07-08
+Added: Auto-reload function.
+Added: Gameplay options to toggle auto-reload.
+Fixed: Sound slider bug
+
+2015-07-10
+Fixed: Inventory scrollbar jitter
+Fixed: Details text popup positioning should be more consistent
+Changed: The sugar crash indicator kicks in at 15 instead of 0
+
+2015-07-17
+Added: Prototype implementation of crafting bench in Last Hope
+Changed: Upgraded GoogleFu library to new Google2u version
+Changed: Upgraded MasterAudio library to latest version
+Changed: Fixed Google2u warnings
+
+2015-07-19
+Added: New resource items
+Added: Recipes for ammo, food and potions
+Changed: Tweaked current recipes
+Fixed: Disassembling a stack of items will only use 1 now
+Fixed: Items without icons can now be set for disassembly
+
+2015-07-23
+Added: Crafting progress count
+Added: Resource drops to loot tables
+
+2015-07-26
+Fixed: Savegames with crafting progress now work
+
+2015-08-03
+Changed: Overhauled save system using new Perlib package
+
+2015-08-04
+Fixed: Enemy colors
+
+2015-08-09
+Added: Crafting process (item creation).  Needs debugging!
+
+2015-08-13
+Fixed: All known crafting and inventory bugs
+Changed: Balanced crafting equations
+
+2015-08-16
+Added: Crafting bench placeholder
+
+2015-08-17
+Added: Trash Collecting skill now applies when searching desks, crates, etc.
+Fixed: Crafting now consumes the correct quantity of materials
+Fixed: Crafting progress now saves correctly
+Fixed: Equipped items will no longer unequip if there's more than 1 left
+
+2015-08-18
+Added: Crafting benches will seldomly spawn in mission builds
+Fixed: Crafting GUI should now scale properly to the screen resolution
+
+2015-09-16
+Fixed: After using the workbench, pressing 'E' on an empty space will no longer open the bench
+Fixed: Items that have not yet reached level 1 can no longer be crafted
+Fixed: Crafted guns no longer have full ammo
+
+2015-09-27
+Added: World Map Travel system
+Added: World Map Location system

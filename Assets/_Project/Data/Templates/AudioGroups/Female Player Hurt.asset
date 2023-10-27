@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Female Player Hurt
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 8180a731e108bbd47b190a45f916eb07, type: 3}
+  - {fileID: 8300000, guid: 69b715464334f0e41b0216f4748b85f8, type: 3}
+  - {fileID: 8300000, guid: 370aa26f01653a340be8c7ba73142acf, type: 3}
+  - {fileID: 8300000, guid: adaf2e8b284cc9742a9d7133aa56ec43, type: 3}
+  - {fileID: 8300000, guid: ca7a9162ff2aa3742aa8772dd68c12db, type: 3}
+  - {fileID: 8300000, guid: 5c3586cc722f3584ea2b5382e9c474ed, type: 3}
+  - {fileID: 8300000, guid: 63103a2da6fa5b04ba566cbdb21849b0, type: 3}
+  - {fileID: 8300000, guid: d71e119d3fa47914aabe821c745ca490, type: 3}
+  - {fileID: 8300000, guid: 577ccdc629cc83548b61f324ed9380fe, type: 3}
+  - {fileID: 8300000, guid: d2eff52aad294834684788dba469880d, type: 3}
+  - {fileID: 8300000, guid: 70a881c574b04d740853e7fcd7f661f5, type: 3}
+  - {fileID: 8300000, guid: 6c34274fe832a8c4ca9ddbcfac8ad20c, type: 3}
+  - {fileID: 8300000, guid: 813425b0359defa4c80d579640e2c04b, type: 3}
+  - {fileID: 8300000, guid: 9d65ad9219f934f4492fc6163709189d, type: 3}
+  - {fileID: 8300000, guid: 8c857e10ae133c5478745c7b8b19bae7, type: 3}
+  - {fileID: 8300000, guid: e5a136674ebff794bb1b67370b4be7af, type: 3}
+  - {fileID: 8300000, guid: a0c955d04c1c442419fd48abe23aff1e, type: 3}
+  - {fileID: 8300000, guid: 8db4c3e483b52cd44a6d14bf83576260, type: 3}

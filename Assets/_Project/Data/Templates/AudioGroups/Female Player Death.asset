@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Female Player Death
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 3ff51a20337efe44885adf939ab953cd, type: 3}
+  - {fileID: 8300000, guid: c53da333e03936f40ba930c1c968bf2f, type: 3}
+  - {fileID: 8300000, guid: e247539e20730ef4dab572ea3a20a2f6, type: 3}
+  - {fileID: 8300000, guid: 81d96111c40f2514095165d0aed43443, type: 3}
+  - {fileID: 8300000, guid: 04358a18afa917d49a569ce2ba7f70ea, type: 3}
+  - {fileID: 8300000, guid: 0dedef1d56f7612498844c5e776bbabd, type: 3}
+  - {fileID: 8300000, guid: 3d319bd01ac68234d980068553e8c542, type: 3}
+  - {fileID: 8300000, guid: 4650c69c2050e1d4493cf2743e21fc5f, type: 3}
+  - {fileID: 8300000, guid: 7125d2443db996b488c8d01715f3d497, type: 3}
+  - {fileID: 8300000, guid: 1588ec3ebc8a2384caa247d54c8f3d58, type: 3}
+  - {fileID: 8300000, guid: 99d5ef91092fdef4ebe7fc4d97c3b5d1, type: 3}
+  - {fileID: 8300000, guid: b917518590ed0b04c84b17bbcb701ac5, type: 3}
+  - {fileID: 8300000, guid: f328d5e952789104a83b514d1ba89e3b, type: 3}

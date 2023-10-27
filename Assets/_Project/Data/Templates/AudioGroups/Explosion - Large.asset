@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Explosion - Large
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 9d98c37089c2c8e47aba220acf3b6c05, type: 3}
+  - {fileID: 8300000, guid: 46a9b821af3e79e449206b507873af34, type: 3}
+  - {fileID: 8300000, guid: 09b66e33c46c99e489a8d0f27d8affc8, type: 3}
+  - {fileID: 8300000, guid: 4de8650d163a3f244a65a0b32e755b69, type: 3}
+  - {fileID: 8300000, guid: f071ce22c2290444088c77420a0f77ad, type: 3}
+  - {fileID: 8300000, guid: 4a2dfed0559dd744aa4af1988f0beff0, type: 3}
+  - {fileID: 8300000, guid: 1fcbfbb8c7b441a4fb4a4b174d217641, type: 3}
+  - {fileID: 8300000, guid: 1bb5b31e7c6aacb4c907c72da3b1f478, type: 3}
+  - {fileID: 8300000, guid: dd5d8fad129358541ab19e2e1f944dc8, type: 3}
+  - {fileID: 8300000, guid: b5f4ebbb66672884a96ff223f3a220b6, type: 3}

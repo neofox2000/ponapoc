@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Explosion - Distant
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: b71306aea0c0a434db0dacce6e542818, type: 3}
+  - {fileID: 8300000, guid: ae03ed90ab2a94347841182fd216b5e4, type: 3}
+  - {fileID: 8300000, guid: c6c8d5357854eac45a25bbf32912962f, type: 3}
+  - {fileID: 8300000, guid: 9002acdac53efc94d8737c97484f7308, type: 3}
+  - {fileID: 8300000, guid: 56f781b221d1a8a4390ff35b9a475596, type: 3}
+  - {fileID: 8300000, guid: 981e73fb8146a37488817e95e98271c0, type: 3}
+  - {fileID: 8300000, guid: 9b0e7289ae4972045aefea9f5263b895, type: 3}
+  - {fileID: 8300000, guid: 00db898d6b0e51948a76884995bfadfb, type: 3}

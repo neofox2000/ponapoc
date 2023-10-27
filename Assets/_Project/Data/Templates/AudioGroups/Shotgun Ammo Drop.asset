@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Shotgun Ammo Drop
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 53fe4ae56eceb304dae16fc0ec6339f2, type: 3}
+  - {fileID: 8300000, guid: c74ba65b557150b4e839954948c54b0b, type: 3}
+  - {fileID: 8300000, guid: 921aff8d2b366034db61ded326457d85, type: 3}
+  - {fileID: 8300000, guid: 35911d7ae3173754aac88db4bf8fc1c8, type: 3}
+  - {fileID: 8300000, guid: 51aa09c85cb32d849bec5829b69a8979, type: 3}
+  - {fileID: 8300000, guid: cc2753a86b3ba0d4c97944bbdb60f1cf, type: 3}
+  - {fileID: 8300000, guid: fa48c3d9486c7e04797629d9656f8a45, type: 3}
+  - {fileID: 8300000, guid: af8ba7a722c507041a4f336727ab9c7f, type: 3}
+  - {fileID: 8300000, guid: 6e3221bd3dddd624e9a73271d13f584d, type: 3}
+  - {fileID: 8300000, guid: 2d86f1317626a934b8c9ad787f699bbc, type: 3}
+  - {fileID: 8300000, guid: ac712513ddd8a324a98571583f75de77, type: 3}

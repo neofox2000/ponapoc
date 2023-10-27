@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Revolver Fire (Heavy)
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 0.8
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 9014b3207c41ba84ab8370d9f8e4eb33, type: 3}
+  - {fileID: 8300000, guid: c28fc62e1eaec9f4babf15e76ea9cfd3, type: 3}
+  - {fileID: 8300000, guid: feb872d8e887c6744b5d3b840a740e24, type: 3}
+  - {fileID: 8300000, guid: 8b2e9bd8b1bff304db18f44e4d2c74f7, type: 3}

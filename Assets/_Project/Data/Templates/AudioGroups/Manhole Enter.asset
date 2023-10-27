@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Manhole Enter
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 9dcf268ee07c8234a93369afa77bc827, type: 3}
+  - {fileID: 8300000, guid: 7f05400ae54ef724b832a2049143fefd, type: 3}
+  - {fileID: 8300000, guid: 479f222c006bd9a479e9c87265cce634, type: 3}
+  - {fileID: 8300000, guid: f92b07ebbc03dac46aedc8ec751016b9, type: 3}
+  - {fileID: 8300000, guid: dbdc686cf77be48458273dfdd1ab0bbc, type: 3}
+  - {fileID: 8300000, guid: db22b21e953bdde49b1cb95e1d9fd4c8, type: 3}
+  - {fileID: 8300000, guid: 33be89ac00d2ce742b7e618543a49646, type: 3}

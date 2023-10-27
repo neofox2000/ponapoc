@@ -1,0 +1,11 @@
+2017-11-03
+* Update old item icons
+
+2017-11-06
+* Remove remaining links to deleted items
+* Stat/Skill points can not longer be reduced below their base values when assigning free points
+* Plus and minus buttons on skill/stat sheets will become disabled when they can no longer be used
+
+2017-11-07
+* Loot bags on portals will now be picked up instead of going through the portal
+* You can now hold the use button to open the transfer inventory window on loot bags

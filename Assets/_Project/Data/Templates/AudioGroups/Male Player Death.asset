@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Male Player Death
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 5ad4245e3d81e6a459532e9550387044, type: 3}
+  - {fileID: 8300000, guid: 5ff30d4ec0d07bd4da3790abbdf9c96d, type: 3}
+  - {fileID: 8300000, guid: 73c5a16ae25467e4a9de2adc789682cc, type: 3}
+  - {fileID: 8300000, guid: 3ff2903701ca389488bd51f1de9d530f, type: 3}
+  - {fileID: 8300000, guid: c19f11b053e166a48a5ed3a5d415fbda, type: 3}
+  - {fileID: 8300000, guid: 1c2eebe064ca33a4cb674af64996f881, type: 3}
+  - {fileID: 8300000, guid: 0ef30e5d01fc27c4cb9422b637bcb44f, type: 3}
+  - {fileID: 8300000, guid: e551f711dc61912419ee25362bc2b908, type: 3}

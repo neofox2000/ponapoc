@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Shotgun Fire (Sawed Off)
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 612446eec488abc4c83cd4ffe4d08419, type: 3}
+  - {fileID: 8300000, guid: dd5de735871ec414ab5900b1477a02a7, type: 3}
+  - {fileID: 8300000, guid: 92b5826c69351f043b819c989d4cdfd3, type: 3}
+  - {fileID: 8300000, guid: edfc93cca17a3a54f99fefd98951215b, type: 3}

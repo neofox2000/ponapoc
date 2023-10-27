@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - FxTemporaire
+  - Pickup
+  - Searchable
+  - MapLocation
+  - MapArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - NoClick
+  - Loot
+  - Ground
+  - Physics
+  - Portal
+  - Projectile
+  - NPC
+  - Location
+  - BarkTriggers
+  - Interactable
+  - Detector
+  - Detectee
+  - Wall
+  - Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Environment_0
+    uniqueID: 461210357
+    locked: 0
+  - name: Environment_Background_1
+    uniqueID: 1137996673
+    locked: 0
+  - name: Environment_2
+    uniqueID: 91905937
+    locked: 0
+  - name: Characters
+    uniqueID: 1214620377
+    locked: 0
+  - name: Weapons
+    uniqueID: 2559738743
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Environment_Forground_1
+    uniqueID: 1503486333
+    locked: 0
+  - name: Particles
+    uniqueID: 3301689791
+    locked: 0
+  - name: Controls
+    uniqueID: 4017983815
+    locked: 0
+  - name: Bones
+    uniqueID: 3261454235
+    locked: 0

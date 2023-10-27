@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Hobo Garments
+  m_EditorClassIdentifier: 
+  saveID: 40
+  description: Smelly, itchy, covered in... Eeeeeew!
+  icon: {fileID: 21300000, guid: 601b607b70648284f8444db966757dc7, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 1
+  weaponTemplate: {fileID: 0}
+  damageMatrix:
+    physical: 0.05
+    chemical: -0.1
+    energy: 0.05
+    biological: -0.05
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 0
+  chargeUse: 1
+  shotCount: 1
+  power: 5
+  weight: 1
+  useDelay: 0
+  reloadDelay: 1
+  range: 0
+  value: 50
+  piercingFactor: 0
+  shotSpread: 0
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

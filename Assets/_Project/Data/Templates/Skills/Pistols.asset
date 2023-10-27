@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8501ba1e2188d9944b86289d11952cfb, type: 3}
+  m_Name: Pistols
+  m_EditorClassIdentifier: 
+  saveID: 19
+  isSkill: 1
+  displayName: Pistols
+  description: 'Small shooties for efficient use of ammo.
+
+
+    +Pistol DMG'
+  color:
+    serializedVersion: 2
+    rgba: 4294967295
+  unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+  limits: {x: 0, y: 200}
+  statRules: []

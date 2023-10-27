@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Equip Apparel
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24359890, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: f615e2a781d03b748988d13c5def33bb, type: 3}
+  - {fileID: 8300000, guid: a196d70e7a50f67448171adc9597aa21, type: 3}
+  - {fileID: 8300000, guid: 1548043cd71dc9d46ae144ae0e77b3fb, type: 3}
+  - {fileID: 8300000, guid: 6cea66015ec80864499a97873f78282f, type: 3}
+  - {fileID: 8300000, guid: 0ca853465e915a7458410e93c21816dc, type: 3}
+  - {fileID: 8300000, guid: 9629970ebd00b8d4bb7dc4594f04b1f4, type: 3}
+  - {fileID: 8300000, guid: 6bae67ad3d9f1e84da1b556d8226e329, type: 3}
+  - {fileID: 8300000, guid: f28cb889882ae7c4c9ab313fe41370db, type: 3}
+  - {fileID: 8300000, guid: d2968a98453350947aa41f864456a725, type: 3}
+  - {fileID: 8300000, guid: 171ab5b21f8aade489cc73fd8f3142eb, type: 3}
+  - {fileID: 8300000, guid: 24f7349140b070a4b82cfe91124b6061, type: 3}
+  - {fileID: 8300000, guid: 58c366d89ef84014d894b2793dede304, type: 3}
+  - {fileID: 8300000, guid: 4ad367f07630da247af8a60694327707, type: 3}
+  - {fileID: 8300000, guid: 7be99f4c769162e458d9b7bdb1048409, type: 3}
+  - {fileID: 8300000, guid: 742c054c64d7ed641954b8ac5801c977, type: 3}
+  - {fileID: 8300000, guid: bc9b634223e96f84ebcab8d485c0cddf, type: 3}

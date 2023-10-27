@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c342169ca63c6b14d8d5cc7933fd1507, type: 3}
+  m_Name: Tutorial Thing
+  m_EditorClassIdentifier: 
+  saveId: 5
+  description: Things and stuff
+  sceneName: Tutorial
+  entrances_old:
+  - name: West
+    portalID: 0
+    newGameVisible: 0
+  - name: East
+    portalID: 1
+    newGameVisible: 0
+  entrances:
+  - {fileID: 11400000, guid: 982365b9b8ec080439ba19e46d5a7d86, type: 2}
+  - {fileID: 11400000, guid: c5248aa7c97c6034986fab5f3f23969e, type: 2}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8501ba1e2188d9944b86289d11952cfb, type: 3}
+  m_Name: Intelligence
+  m_EditorClassIdentifier: 
+  saveID: 5
+  displayName: Intelligence
+  description: Mental apptitude
+  color:
+    serializedVersion: 2
+    rgba: 4291603371
+  unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+  limits: {x: 1, y: 20}
+  statRules:
+  - affectedStat: 331
+    flatValue: 0
+    percentage: 1
+    affectedItemTag: {fileID: 0}
+  - affectedStat: 330
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 0}
+  - affectedStat: 103
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: eb9fb5175ac0e624fb21bf01c910467f, type: 2}
+  - affectedStat: 101
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: 1b18b89d3060fa146b0d6b64019753e9, type: 2}
+  - affectedStat: 102
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: 1b18b89d3060fa146b0d6b64019753e9, type: 2}
+  - affectedStat: 111
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: eb9fb5175ac0e624fb21bf01c910467f, type: 2}
+  - affectedStat: 112
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: eb9fb5175ac0e624fb21bf01c910467f, type: 2}
+  - affectedStat: 112
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: 1b18b89d3060fa146b0d6b64019753e9, type: 2}
+  - affectedStat: 112
+    flatValue: 0
+    percentage: 0.01
+    affectedItemTag: {fileID: 11400000, guid: 1b18b89d3060fa146b0d6b64019753e9, type: 2}

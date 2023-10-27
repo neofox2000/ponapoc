@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Homemade Grenade
+  m_EditorClassIdentifier: 
+  saveID: 79
+  description: It rhymes and everything
+  icon: {fileID: 21300000, guid: 4748326c155af5344877b7140ee4ed72, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 7
+  weaponTemplate: {fileID: 11400000, guid: 57443feb597473243a6dd3b0a82355a5, type: 2}
+  damageMatrix:
+    physical: 10
+    chemical: 0
+    energy: 5
+    biological: 0
+  worldPrefab: {fileID: 173254, guid: 9bb3f20962f437d41a8745e1e6da42e6, type: 3}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 1
+  chargeUse: 1
+  shotCount: 1
+  power: 2
+  weight: 0.5
+  useDelay: 1
+  reloadDelay: 0
+  range: 8
+  value: 30
+  piercingFactor: 1
+  shotSpread: 0
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

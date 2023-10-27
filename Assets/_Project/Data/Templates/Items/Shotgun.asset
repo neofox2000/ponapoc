@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  saveID: 24
+  description: 'Packs a punch.
+
+    I like it.'
+  icon: {fileID: 21300000, guid: ba4d33cce32808740a5a0dc7cc4c2eab, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 0
+  weaponTemplate: {fileID: 11400000, guid: 1be66169e7b275b4e80fbfc389a9ade4, type: 2}
+  damageMatrix:
+    physical: 10
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 3
+  chargeCount: 8
+  chargeUse: 1
+  shotCount: 5
+  power: 10
+  weight: 5
+  useDelay: 0.6
+  reloadDelay: 2
+  range: 5
+  value: 100
+  piercingFactor: 0
+  shotSpread: 48
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Sweet 'n Sour Sauce
+  m_EditorClassIdentifier: 
+  saveID: 64
+  description: 'A simple condiment, yet the potential clash of flavors stirs an intense
+    curiosity within you.
+
+
+    PlainCo - Remarkably ordinary!'
+  icon: {fileID: 0}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: 16f6e92797806104e8c2ce919acad37b, type: 2}
+  itemType: 2
+  weaponTemplate: {fileID: 11400000, guid: 57443feb597473243a6dd3b0a82355a5, type: 2}
+  damageMatrix:
+    physical: 0
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 1
+  chargeUse: 1
+  shotCount: 1
+  power: 10
+  weight: 0.1
+  useDelay: 0.5
+  reloadDelay: 0
+  range: 0
+  value: 18
+  piercingFactor: 0
+  shotSpread: 0
+  statusEffect: {fileID: 11400000, guid: 1dc1cb75cfe5ef64c9a883c480dcfdb1, type: 2}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wiggly Button
+  m_Controller: {fileID: 9100000, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+  - m_OriginalClip: {fileID: 7400002, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54fe3363f00b56f46b0562b6e38da6ef, type: 2}
+  - m_OriginalClip: {fileID: 7400004, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38ce52621a4660b438a0c02d73ab31b4, type: 2}
+  - m_OriginalClip: {fileID: 7400006, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+    m_OverrideClip: {fileID: 7400006, guid: a1bca9fdc4a0d80498964abfb4b3bac1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 54fe3363f00b56f46b0562b6e38da6ef, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54fe3363f00b56f46b0562b6e38da6ef, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 38ce52621a4660b438a0c02d73ab31b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38ce52621a4660b438a0c02d73ab31b4, type: 2}

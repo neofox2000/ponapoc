@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Old Wooden Door
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 6def8e814aee2a742ae21260887d0ac2, type: 3}
+  - {fileID: 8300000, guid: 4a935f6dc88aafb41a540c432653e3a9, type: 3}
+  - {fileID: 8300000, guid: 8f95a8a07676eb1488d70ff09d5045f4, type: 3}
+  - {fileID: 8300000, guid: 347ecd51884d7774e82481b7f65adbb0, type: 3}
+  - {fileID: 8300000, guid: 82fb3a955350e7f4aadf8e9e1ea27918, type: 3}
+  - {fileID: 8300000, guid: e436db188e251104a890ef97501d5e34, type: 3}
+  - {fileID: 8300000, guid: 54f7b4eb6c281a840b789818a35f0a92, type: 3}

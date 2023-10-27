@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3365eecc8be32094aa3679f12f9cbf5f, type: 3}
+  m_Name: Generic Death
+  m_EditorClassIdentifier: 
+  headingTextColor:
+    serializedVersion: 2
+    rgba: 4284506288
+  bodyTextColor:
+    serializedVersion: 2
+    rgba: 4288980191
+  before: 0
+  after: 4
+  heading: You Have Died
+  body: On the bright side, your sugar-rich blood fed a very happy zombie who went
+    on to accomplish... whatever it is zombies dream of.  So in the end, you were
+    at least good for that one thing.

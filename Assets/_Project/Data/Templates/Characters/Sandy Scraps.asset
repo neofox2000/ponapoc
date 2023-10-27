@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5798969151c8eb148be08325dbd404c7, type: 3}
+  m_Name: Sandy Scraps
+  m_EditorClassIdentifier: 
+  saveID: 0
+  playable: 0
+  animationProfile: {fileID: 11400000, guid: 248b043f57aa7e64391250c737cdfaf3, type: 2}
+  soundsTemplate: {fileID: 11400000, guid: e2186f86874b4514eb24f7ed7ca50b86, type: 2}
+  weaponAnimationProfile: {fileID: 11400000, guid: 8fe96b81bb90c554cbb42aaf2828dd2a,
+    type: 2}
+  modelPrefab: {fileID: 0}
+  conversationPrefab: {fileID: 1000013688906954, guid: 94c21ac0351c76045a96c6f245365102,
+    type: 3}
+  hitEffect: {fileID: 0}
+  criticalHitEffect: {fileID: 0}
+  canInteract: 0
+  canBarter: 0
+  lootTable: {fileID: 0}
+  canRun: 1
+  canUseCover: 0
+  equipArmor: 1
+  equipWeapons: 0

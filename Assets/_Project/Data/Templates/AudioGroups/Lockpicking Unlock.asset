@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Lockpicking Unlock
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: -0.1
+  pitchRandMax: 0.1
+  clips:
+  - {fileID: 8300000, guid: 6c125a11eca600946897d38c8a65b5e7, type: 3}
+  - {fileID: 8300000, guid: 386855d94f673204cb005539989b63f0, type: 3}
+  - {fileID: 8300000, guid: 241c91e725fb01b408dd1647ffa85c42, type: 3}
+  - {fileID: 8300000, guid: 4c588a40c724ce947bd3f73af19b5445, type: 3}

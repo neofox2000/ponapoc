@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Zombie 1 Pain
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24373274, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 0.5
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: 231180ac87394a7479a7afd3bda30438, type: 3}
+  - {fileID: 8300000, guid: 491f5152dd5cad44b952e27ac52d8040, type: 3}
+  - {fileID: 8300000, guid: 13f74568fb53fdc438701e9c463819f7, type: 3}
+  - {fileID: 8300000, guid: 3e87e3056510cfa45a2fc4cb65139c9f, type: 3}
+  - {fileID: 8300000, guid: b215cc142e2ba77489930c019af0ff1f, type: 3}

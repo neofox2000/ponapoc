@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Strawberry Jam
+  m_EditorClassIdentifier: 
+  saveID: 67
+  description: 'It''s not pink, but close enough.
+
+
+    PinkCo - All flavor, 1000% pinkness!'
+  icon: {fileID: 21300000, guid: 7725f2ebc6f80584cb7ec698620ff5ea, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: 73b9aaec339ebd94a81bed5b8ff9a18d, type: 2}
+  itemType: 2
+  weaponTemplate: {fileID: 11400000, guid: 57443feb597473243a6dd3b0a82355a5, type: 2}
+  damageMatrix:
+    physical: 0
+    chemical: 0
+    energy: 0
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 0
+  chargeCount: 1
+  chargeUse: 1
+  shotCount: 1
+  power: 10
+  weight: 0.1
+  useDelay: 0.5
+  reloadDelay: 0
+  range: 0
+  value: 25
+  piercingFactor: 0
+  shotSpread: 0
+  statusEffect: {fileID: 11400000, guid: ab9694b151002f54fb12694fdeaf1ab4, type: 2}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

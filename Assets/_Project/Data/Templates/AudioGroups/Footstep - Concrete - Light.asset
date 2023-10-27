@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Footstep - Concrete - Light
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24391546, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 0.75
+  pitch: 1
+  pitchRandMin: -0.15
+  pitchRandMax: 0.1
+  clips:
+  - {fileID: 8300000, guid: 55a67dc25c85fb647a7d2b0b54fe4cd7, type: 3}
+  - {fileID: 8300000, guid: bd3d5dc821119634ea9b08a16659da61, type: 3}
+  - {fileID: 8300000, guid: c0303991d23c5264d8d4a3cd6724e773, type: 3}
+  - {fileID: 8300000, guid: 7079f297e3712aa41b1377f59fdf05db, type: 3}
+  - {fileID: 8300000, guid: 34aae7df1f4f72c4cbf7bb0d8f6e6057, type: 3}
+  - {fileID: 8300000, guid: 1b3eb66a077608a4b9dc51f5d2eaceb9, type: 3}
+  - {fileID: 8300000, guid: 87f6f89ed6d5ed942a6e53663189fa55, type: 3}
+  - {fileID: 8300000, guid: 0529a34e5bc89f443aed984f0dbbeb86, type: 3}
+  - {fileID: 8300000, guid: 3bfe80f7e1137f54fa76f4641e0c1cc3, type: 3}
+  - {fileID: 8300000, guid: 5aac9009860196449b696e64a96f89d6, type: 3}
+  - {fileID: 8300000, guid: a225a62770ec00c4f9236ba84bcb6901, type: 3}
+  - {fileID: 8300000, guid: dac35ea363cbaab48a7eb0e80040437d, type: 3}
+  - {fileID: 8300000, guid: 0063dfd2eaecb7d43b7555562195b88d, type: 3}
+  - {fileID: 8300000, guid: c80481083a88c5343a5474b05e311a63, type: 3}
+  - {fileID: 8300000, guid: 88f078fa6e962b34d860a6e2771a29ae, type: 3}
+  - {fileID: 8300000, guid: 32d711aff55bd4641a34df9406015880, type: 3}
+  - {fileID: 8300000, guid: e26c5790ca32554429dd4776ea178e82, type: 3}
+  - {fileID: 8300000, guid: 9cf607ac1cd03804cb890c3447f9858f, type: 3}
+  - {fileID: 8300000, guid: af41bc001d1b03541a3094f3c15a6806, type: 3}
+  - {fileID: 8300000, guid: a811713b40bf04d4fb49cff2aeef730b, type: 3}
+  - {fileID: 8300000, guid: 2be670db549c4a34384baf2ed0618375, type: 3}
+  - {fileID: 8300000, guid: 3eab1be2996e1cd43a451a0587776a12, type: 3}

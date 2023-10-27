@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401ab3f0478600e4fbb6b1af1dd55bf9, type: 3}
+  m_Name: Broken Bits
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MerchantMaleGreeting
+    sound: {fileID: 11400000, guid: dc06908b4ec0fa14eb396e5703ffeb65, type: 2}
+    key: 1
+  - name: MerchantMaleBarterStart
+    sound: {fileID: 11400000, guid: 6d194e11e1e3ba04c996b52e700de179, type: 2}
+    key: 9
+  - name: MerchantMaleBarterAccept
+    sound: {fileID: 11400000, guid: 1262e8df33cbe2246baede228ac6d8e4, type: 2}
+    key: 3

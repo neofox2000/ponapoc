@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e115ac50b2c535c448ad4aa895244585, type: 3}
+  m_Name: Menu Button (Normal)
+  m_EditorClassIdentifier: 
+  pointerEnter: {fileID: 11400000, guid: 424f9dd461c6c4c49a2341e92b1e6636, type: 2}
+  pointerUp: {fileID: 11400000, guid: 439106e5ba195794885f07e9386c807c, type: 2}
+  pointerDown: {fileID: 0}
+  pointerClick: {fileID: 0}
+  scroll: {fileID: 0}
+  initializePotentialDrag: {fileID: 0}
+  beginDrag: {fileID: 0}
+  drag: {fileID: 0}
+  drop: {fileID: 0}
+  endDrag: {fileID: 0}
+  submit: {fileID: 11400000, guid: 439106e5ba195794885f07e9386c807c, type: 2}
+  cancel: {fileID: 0}
+  select: {fileID: 11400000, guid: 424f9dd461c6c4c49a2341e92b1e6636, type: 2}
+  deselect: {fileID: 0}
+  updateSelected: {fileID: 0}
+  move: {fileID: 0}

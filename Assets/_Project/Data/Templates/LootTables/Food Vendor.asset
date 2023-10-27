@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7052c18fa6a5fb74a8416a7b88ec460c, type: 3}
+  m_Name: Food Vendor
+  m_EditorClassIdentifier: 
+  rolls: 100
+  loot:
+  - itemID: 0
+    item: {fileID: 11400000, guid: 320698ceecb94b84bb4a539fbc59cfe3, type: 2}
+    chance: 0.01
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: 649091e9a9e66934b96c5284ad432c37, type: 2}
+    chance: 0.01
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: b1f9418d1940dda49ae0786c9567743a, type: 2}
+    chance: 0.01
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: 46b7f04a357736048a659b1ccd10319b, type: 2}
+    chance: 0.01
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: a17b2e9abc2650d4085b9bf43752105e, type: 2}
+    chance: 0.02
+    minQuantity: 1
+    maxQuantity: 2
+  - itemID: 0
+    item: {fileID: 11400000, guid: 911c216698df24a40837b720f0db0623, type: 2}
+    chance: 0.02
+    minQuantity: 1
+    maxQuantity: 2
+  - itemID: 0
+    item: {fileID: 11400000, guid: 7192aaa47dac0ff438b44d132bd425eb, type: 2}
+    chance: 0.05
+    minQuantity: 1
+    maxQuantity: 2
+  - itemID: 0
+    item: {fileID: 11400000, guid: dbe1c5d251ce93d4b8aeb26862abb85d, type: 2}
+    chance: 0.1
+    minQuantity: 1
+    maxQuantity: 3
+  - itemID: 0
+    item: {fileID: 11400000, guid: afd3523ff481f904c89e9e423d84adae, type: 2}
+    chance: 0.1
+    minQuantity: 1
+    maxQuantity: 3
+  - itemID: 0
+    item: {fileID: 11400000, guid: b411273beec8dd34aac46ad0d21a0fda, type: 2}
+    chance: 0.1
+    minQuantity: 1
+    maxQuantity: 4
+  - itemID: 0
+    item: {fileID: 11400000, guid: 64b4c61ee6c6bf0458c67ab4115eae22, type: 2}
+    chance: 0.15
+    minQuantity: 1
+    maxQuantity: 5
+  - itemID: 0
+    item: {fileID: 11400000, guid: b82826ab57d671345b1e276fca6ad2ca, type: 2}
+    chance: 0.15
+    minQuantity: 1
+    maxQuantity: 5
+  - itemID: 0
+    item: {fileID: 11400000, guid: 64b732088c2e5a24eb3b62ec0df26470, type: 2}
+    chance: 0.15
+    minQuantity: 1
+    maxQuantity: 5
+  - itemID: 0
+    item: {fileID: 11400000, guid: 4c88cf1b6b402a44eaf281ef1f8c7128, type: 2}
+    chance: 0.15
+    minQuantity: 1
+    maxQuantity: 5

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb95c8bd775ea084eaff322061acaf81, type: 3}
+  m_Name: Laser Rifle
+  m_EditorClassIdentifier: 
+  saveID: 28
+  description: KaPEWsh!
+  icon: {fileID: 21300000, guid: 9174657d2542df740a44d069bf190ffc, type: 3}
+  iconColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  equipSound: {fileID: 11400000, guid: df39dcb5d7e1db84ab5c011da4e6708c, type: 2}
+  itemType: 0
+  weaponTemplate: {fileID: 11400000, guid: 06d806f823c2b264989f20a7b2486ced, type: 2}
+  damageMatrix:
+    physical: 0
+    chemical: 0
+    energy: 40
+    biological: 0
+  worldPrefab: {fileID: 0}
+  ability: {fileID: 0}
+  chargeType: 4
+  chargeCount: 20
+  chargeUse: 1
+  shotCount: 1
+  power: 40
+  weight: 8
+  useDelay: 0.25
+  reloadDelay: 2
+  range: 12
+  value: 250
+  piercingFactor: 0.75
+  shotSpread: 4
+  statusEffect: {fileID: 0}
+  tags: []
+  recipeReqs: []
+  equipDefs: []

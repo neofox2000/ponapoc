@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5798969151c8eb148be08325dbd404c7, type: 3}
+  m_Name: Last Hope Guard Female
+  m_EditorClassIdentifier: 
+  saveID: 0
+  playable: 0
+  race: {fileID: 11400000, guid: c8a16c0408d0859428a7e2e450f57552, type: 2}
+  animationProfile: {fileID: 11400000, guid: 248b043f57aa7e64391250c737cdfaf3, type: 2}
+  soundsTemplate: {fileID: 11400000, guid: f83bcd3e4da71df4a991e7aa9150f3f0, type: 2}
+  weaponAnimationProfile: {fileID: 11400000, guid: 6ed1805867943f9449c1edef07888825,
+    type: 2}
+  modelPrefab: {fileID: 156456, guid: ded5f6a86e5298142b9bed84263dccbe, type: 2}
+  modelSkin: 0
+  conversationPrefab: {fileID: 0}
+  hitEffect: {fileID: 0}
+  criticalHitEffect: {fileID: 0}
+  characterSheet: {fileID: 0}
+  canInteract: 0
+  canBarter: 0
+  startingItems: []
+  equipArmor: 1
+  equipWeapons: 0

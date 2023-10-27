@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73358ef6e98d01d488c3036488192cd2, type: 3}
+  m_Name: Zombum
+  m_EditorClassIdentifier: 
+  characterName: Kat
+  level: 1
+  attributes:
+  - template: {fileID: 11400000, guid: a9564b46814763341be0afa0f0d1d9aa, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: 4e2de5c0dfcb55d40aa7324b638f190c, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: c78fcabebc1b9904895fba39821dce73, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: 593119c7119efd34686868b1868e07eb, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: 18ef7a61033668e46a514a9ce2de0664, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: d56cb9f1f9f126c41a625ee9450774fb, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  - template: {fileID: 11400000, guid: 30ecb8fa5f22e6941913c912264b8720, type: 2}
+    valueBase: 1
+    unitOfMeasure: {fileID: 11400000, guid: 4a3ab7718c7f662448d615ac48fd0674, type: 2}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  skills:
+  - template: {fileID: 11400000, guid: 7db5f4131f0c5c14a89444e5f65e0d42, type: 2}
+    valueBase: 10
+    unitOfMeasure: {fileID: 0}
+    consumptionMode: 0
+    regenRate: 0
+    regenRateFixed: 0
+    ignoreBaseValue: 0
+    enabled: 0
+  traits: []
+  abilities:
+  - template: {fileID: 11400000, guid: 5ac4e6754b5a8c841b10d4a079d43547, type: 2}
+    theoryLevel:
+      valueBase: 1
+    theoryXP: 0
+    practiceLevel:
+      valueBase: 0
+    practiceXP: 0
+  availableAttributePoints:
+    valueBase: 5
+  availableSkillPoints:
+    valueBase: 5
+  enableSugar: 0
+  useDifficultySettings: 0

@@ -1,0 +1,10 @@
+FILES CHANGED
+Writer.cs
+SayDialog.cs
+MenuDialog.cs
+DialogInput.cs
+WriterAudio.cs
+
+CHANGES MADE
+Replace All:	Time.deltaTime -> Time.unscaledDeltaTime
+Replace All:	WaitForSeconds -> WaitForSecondsRealtime

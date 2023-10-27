@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7052c18fa6a5fb74a8416a7b88ec460c, type: 3}
+  m_Name: Basic Zombies
+  m_EditorClassIdentifier: 
+  rolls: 1
+  loot:
+  - itemID: 0
+    item: {fileID: 11400000, guid: f4abbe6683b730748aab6d0ba054e0a0, type: 2}
+    chance: 0.025
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: 64b4c61ee6c6bf0458c67ab4115eae22, type: 2}
+    chance: 0.05
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: b82826ab57d671345b1e276fca6ad2ca, type: 2}
+    chance: 0.05
+    minQuantity: 1
+    maxQuantity: 1
+  - itemID: 0
+    item: {fileID: 11400000, guid: 885e06dc3a0edd049abe3977ee5943a9, type: 2}
+    chance: 0.1
+    minQuantity: 1
+    maxQuantity: 2
+  - itemID: 0
+    item: {fileID: 11400000, guid: 0887509150a82484f92eae3644141991, type: 2}
+    chance: 0.15
+    minQuantity: 1
+    maxQuantity: 3

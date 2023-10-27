@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1400eaeedce1a4d4d933e1e2089c85f7, type: 3}
+  m_Name: Revolver Load Ammo
+  m_EditorClassIdentifier: 
+  ignorePause: 1
+  mixer: {fileID: 24378226, guid: c4c993faa467c3d4395b9f915c6625e9, type: 2}
+  volume: 1
+  pitch: 1
+  pitchRandMin: 0
+  pitchRandMax: 0
+  clips:
+  - {fileID: 8300000, guid: a3c5687d6f2b8d542a4557331cbfc2cf, type: 3}
+  - {fileID: 8300000, guid: 76c6c0fe544981142825e7482ca85292, type: 3}
+  - {fileID: 8300000, guid: 8ff6d48f1692fa646a50431c75b26164, type: 3}
+  - {fileID: 8300000, guid: e53a79817f5a31d41a35dab75032af03, type: 3}
+  - {fileID: 8300000, guid: d20b0750ecc854545b82432e6be31db0, type: 3}
